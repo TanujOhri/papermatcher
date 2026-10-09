@@ -2,7 +2,7 @@
 
 `updatedpapermatcher`
 
-> **A Final Year B.Tech Computer Science & Engineering Capstone Project**  
+> 
 > **Intelligent Research Paper Recommendation Using Hybrid NLP**<br>
 > *Hybrid lexical-semantic retrieval combining TF-IDF and Sentence-BERT (`all-MiniLM-L6-v2`), intended to use both exact-term and semantic-similarity signals. The index contains 287,383 documents from 287,421 raw records after 38 duplicate normalized title-summary records were removed.*
 
