@@ -1,0 +1,1712 @@
+{
+  "generated_at_utc": "2026-10-09T04:12:53.465604+00:00",
+  "top_k_per_mode": 5,
+  "included_modes": [
+    "tfidf",
+    "semantic",
+    "hybrid"
+  ],
+  "unavailable_modes": {},
+  "annotation_instructions": [
+    "Review each paper's title and summary against the query's information need and mark relevance true only when the paper is topically relevant.",
+    "Mark relevance false when the paper is not topically relevant; leave it null if you have not judged it or are unsure.",
+    "Do not infer relevance from ranking position, retrieval mode, or score.",
+    "Use the same relevance judgment for a paper ID across all retrieval modes when comparing their rankings."
+  ],
+  "queries": [
+    {
+      "query_index": 1,
+      "query_text": "transformer architectures for natural language processing",
+      "category_code": "cs.CL",
+      "candidates": [
+        {
+          "paper_id": "abs-1910.03771v5",
+          "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+          "summary": "Recent progress in natural language processing has been driven by advances in both model architecture and model pretraining. Transformer architectures have facilitated building higher-capacity models and pretraining has made it possible to effectively utilize this capacity for a wide variety of tasks. \\textit{Transformers} is an open-source library with the goal of opening up these advances to the wider machine learning community. The library consists of carefully engineered state-of-the art Transformer architectures under a unified API. Backing this library is a curated collection of pretrained models made by and available for the community. \\textit{Transformers} is designed to be extensible by researchers, simple for practitioners, and fast and robust in industrial deployments. The library is available at \\url{https://github.com/huggingface/transformers}.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 1,
+              "similarity_score": 0.3662,
+              "tfidf_score": 0.3662,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 1,
+              "similarity_score": 0.9692,
+              "tfidf_score": 0.3662,
+              "semantic_score": 0.6904
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1608.04434v1",
+          "title": "Natural Language Processing using Hadoop and KOSHIK",
+          "summary": "Natural language processing, as a data analytics related technology, is used widely in many research areas such as artificial intelligence, human language processing, and translation. At present, due to explosive growth of data, there are many challenges for natural language processing. Hadoop is one of the platforms that can process the large amount of data required for natural language processing. KOSHIK is one of the natural language processing architectures, and utilizes Hadoop and contains language processing components such as Stanford CoreNLP and OpenNLP. This study describes how to build a KOSHIK platform with the relevant tools, and provides the steps to analyze wiki data. Finally, it evaluates and discusses the advantages and disadvantages of the KOSHIK architecture, and gives recommendations on improving the processing performance.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 2,
+              "similarity_score": 0.3602,
+              "tfidf_score": 0.3602,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 2,
+              "similarity_score": 0.8828,
+              "tfidf_score": 0.3602,
+              "semantic_score": 0.5834
+            }
+          }
+        },
+        {
+          "paper_id": "cs-0304027v1",
+          "title": "\"I'm sorry Dave, I'm afraid I can't do that\": Linguistics, Statistics, and Natural Language Processing circa 2001",
+          "summary": "A brief, general-audience overview of the history of natural language processing, focusing on data-driven approaches.Topics include \"Ambiguity and language analysis\", \"Firth things first\", \"A 'C' change\", and \"The empiricists strike back\".",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 3,
+              "similarity_score": 0.3374,
+              "tfidf_score": 0.3374,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1906.11608v2",
+          "title": "Simple Natural Language Processing Tools for Danish",
+          "summary": "This technical note describes a set of baseline tools for automatic processing of Danish text. The tools are machine-learning based, using natural language processing models trained over previously annotated documents. They are maintained at ITU Copenhagen and will always be freely available.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 4,
+              "similarity_score": 0.3045,
+              "tfidf_score": 0.3045,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2104.09712v1",
+          "title": "Problems and Countermeasures in Natural Language Processing Evaluation",
+          "summary": "Evaluation in natural language processing guides and promotes research on models and methods. In recent years, new evalua-tion data sets and evaluation tasks have been continuously proposed. At the same time, a series of problems exposed by ex-isting evaluation have also restricted the progress of natural language processing technology. Starting from the concept, com-position, development and meaning of natural language evaluation, this article classifies and summarizes the tasks and char-acteristics of mainstream natural language evaluation, and then summarizes the problems and causes of natural language pro-cessing evaluation. Finally, this article refers to the human language ability evaluation standard, puts forward the concept of human-like machine language ability evaluation, and proposes a series of basic principles and implementation ideas for hu-man-like machine language ability evaluation from the three aspects of reliability, difficulty and validity.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 5,
+              "similarity_score": 0.2704,
+              "tfidf_score": 0.2704,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2010.13382v1",
+          "title": "FastFormers: Highly Efficient Transformer Models for Natural Language Understanding",
+          "summary": "Transformer-based models are the state-of-the-art for Natural Language Understanding (NLU) applications. Models are getting bigger and better on various tasks. However, Transformer models remain computationally challenging since they are not efficient at inference-time compared to traditional approaches. In this paper, we present FastFormers, a set of recipes to achieve efficient inference-time performance for Transformer-based models on various NLU tasks. We show how carefully utilizing knowledge distillation, structured pruning and numerical optimization can lead to drastic improvements on inference efficiency. We provide effective recipes that can guide practitioners to choose the best settings for various NLU tasks and pretrained models. Applying the proposed recipes to the SuperGLUE benchmark, we achieve from 9.8x up to 233.9x speed-up compared to out-of-the-box models on CPU. On GPU, we also achieve up to 12.4x speed-up with the presented methods. We show that FastFormers can drastically reduce cost of serving 100 million requests from 4,223 USD to just 18 USD on an Azure F16s_v2 instance. This translates to a sustainable runtime by reducing energy consumption 6.9x - 125.8x according to the metrics used in the SustaiNLP 2020 shared task.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 1,
+              "similarity_score": 0.7316,
+              "tfidf_score": null,
+              "semantic_score": 0.7316
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2310.10930v1",
+          "title": "Enhanced Transformer Architecture for Natural Language Processing",
+          "summary": "Transformer is a state-of-the-art model in the field of natural language processing (NLP). Current NLP models primarily increase the number of transformers to improve processing performance. However, this technique requires a lot of training resources such as computing capacity. In this paper, a novel structure of Transformer is proposed. It is featured by full layer normalization, weighted residual connection, positional encoding exploiting reinforcement learning, and zero masked self-attention. The proposed Transformer model, which is called Enhanced Transformer, is validated by the bilingual evaluation understudy (BLEU) score obtained with the Multi30k translation dataset. As a result, the Enhanced Transformer achieves 202.96% higher BLEU score as compared to the original transformer with the translation dataset.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 2,
+              "similarity_score": 0.7214,
+              "tfidf_score": null,
+              "semantic_score": 0.7214
+            },
+            "hybrid": {
+              "rank": 3,
+              "similarity_score": 0.8715,
+              "tfidf_score": 0.2555,
+              "semantic_score": 0.7214
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2205.11111v1",
+          "title": "DistilCamemBERT: a distillation of the French model CamemBERT",
+          "summary": "Modern Natural Language Processing (NLP) models based on Transformer structures represent the state of the art in terms of performance on very diverse tasks. However, these models are complex and represent several hundred million parameters for the smallest of them. This may hinder their adoption at the industrial level, making it difficult to scale up to a reasonable infrastructure and/or to comply with societal and environmental responsibilities. To this end, we present in this paper a model that drastically reduces the computational cost of a well-known French model (CamemBERT), while preserving good performance.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 3,
+              "similarity_score": 0.7117,
+              "tfidf_score": null,
+              "semantic_score": 0.7117
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2406.16893v1",
+          "title": "A Survey on Transformers in NLP with Focus on Efficiency",
+          "summary": "The advent of transformers with attention mechanisms and associated pre-trained models have revolutionized the field of Natural Language Processing (NLP). However, such models are resource-intensive due to highly complex architecture. This limits their application to resource-constrained environments. While choosing an appropriate NLP model, a major trade-off exists over choosing accuracy over efficiency and vice versa. This paper presents a commentary on the evolution of NLP and its applications with emphasis on their accuracy as-well-as efficiency. Following this, a survey of research contributions towards enhancing the efficiency of transformer-based models at various stages of model development along with hardware considerations has been conducted. The goal of this survey is to determine how current NLP techniques contribute towards a sustainable society and to establish a foundation for future research.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 4,
+              "similarity_score": 0.7106,
+              "tfidf_score": null,
+              "semantic_score": 0.7106
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2106.00479v1",
+          "title": "DoT: An efficient Double Transformer for NLP tasks with tables",
+          "summary": "Transformer-based approaches have been successfully used to obtain state-of-the-art accuracy on natural language processing (NLP) tasks with semi-structured tables. These model architectures are typically deep, resulting in slow training and inference, especially for long inputs. To improve efficiency while maintaining a high accuracy, we propose a new architecture, DoT, a double transformer model, that decomposes the problem into two sub-tasks: A shallow pruning transformer that selects the top-K tokens, followed by a deep task-specific transformer that takes as input those K tokens. Additionally, we modify the task-specific attention to incorporate the pruning scores. The two transformers are jointly trained by optimizing the task-specific loss. We run experiments on three benchmarks, including entailment and question-answering. We show that for a small drop of accuracy, DoT improves training and inference time by at least 50%. We also show that the pruning transformer effectively selects relevant tokens enabling the end-to-end model to maintain similar accuracy as slower baseline models. Finally, we analyse the pruning and give some insight into its impact on the task model.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 5,
+              "similarity_score": 0.6989,
+              "tfidf_score": null,
+              "semantic_score": 0.6989
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2111.04909v3",
+          "title": "FPM: A Collection of Large-scale Foundation Pre-trained Language Models",
+          "summary": "Large-scale Transformer models have significantly promoted the recent development of natural language processing applications. However, little effort has been made to unify the effective models. In this paper, driven by providing a new set of baseline models in the future, we adopt various novel transformer architectures and launch a model set with the help of recent mainstream technologies. We focus the discussions on optimizing the depth of the networks based on the existing powerful encode-decoder structures. We show that by properly avoiding training defects such as non-convergence and degradation, scaling up off-the-shelf transformer architectures consistently delivers better performance. To stimulate future research on large-scale language model pretraining, we present extensive results and detailed discussions on network performance improvements with respect to the network depth and confirm the existence of the optimal number of layers under specific tasks. To the best of our knowledge, we provide the largest Chinese generative model and the largest Chinese encoding model. The BERT language models we trained on English datasets deliver a 14.45% higher F1 score than the Turing-NLR.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 4,
+              "similarity_score": 0.819,
+              "tfidf_score": 0.2516,
+              "semantic_score": 0.6568
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2505.01855v2",
+          "title": "Intra-Layer Recurrence in Transformers for Language Modeling",
+          "summary": "Transformer models have established new benchmarks in natural language processing; however, their increasing depth results in substantial growth in parameter counts. While existing recurrent transformer methods address this issue by reprocessing layers multiple times, they often apply recurrence indiscriminately across entire blocks of layers. In this work, we investigate Intra-Layer Recurrence (ILR), a more targeted approach that applies recurrence selectively to individual layers within a single forward pass. Our experiments show that allocating more iterations to earlier layers yields optimal results. These findings suggest that ILR offers a promising direction for optimizing recurrent structures in transformer architectures.",
+          "query_text": "transformer architectures for natural language processing",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 5,
+              "similarity_score": 0.7975,
+              "tfidf_score": 0.2547,
+              "semantic_score": 0.6237
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query_index": 2,
+      "query_text": "large language models hallucination",
+      "category_code": "cs.CL",
+      "candidates": [
+        {
+          "paper_id": "abs-2407.08039v1",
+          "title": "Knowledge Overshadowing Causes Amalgamated Hallucination in Large Language Models",
+          "summary": "Hallucination is often regarded as a major impediment for using large language models (LLMs), especially for knowledge-intensive tasks. Even when the training corpus consists solely of true statements, language models still generate hallucinations in the form of amalgamations of multiple facts. We coin this phenomenon as ``knowledge overshadowing'': when we query knowledge from a language model with multiple conditions, some conditions overshadow others, leading to hallucinated outputs. This phenomenon partially stems from training data imbalance, which we verify on both pretrained models and fine-tuned models, over a wide range of LM model families and sizes.From a theoretical point of view, knowledge overshadowing can be interpreted as over-generalization of the dominant conditions (patterns). We show that the hallucination rate grows with both the imbalance ratio (between the popular and unpopular condition) and the length of dominant condition description, consistent with our derived generalization bound. Finally, we propose to utilize overshadowing conditions as a signal to catch hallucination before it is produced, along with a training-free self-contrastive decoding method to alleviate hallucination during inference. Our proposed approach showcases up to 82% F1 for hallucination anticipation and 11.2% to 39.4% hallucination control, with different models and datasets.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 1,
+              "similarity_score": 0.3147,
+              "tfidf_score": 0.3147,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 2,
+              "similarity_score": 0.953,
+              "tfidf_score": 0.3147,
+              "semantic_score": 0.7053
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2404.07461v2",
+          "title": "An Audit on the Perspectives and Challenges of Hallucinations in NLP",
+          "summary": "We audit how hallucination in large language models (LLMs) is characterized in peer-reviewed literature, using a critical examination of 103 publications across NLP research. Through the examination of the literature, we identify a lack of agreement with the term `hallucination' in the field of NLP. Additionally, to compliment our audit, we conduct a survey with 171 practitioners from the field of NLP and AI to capture varying perspectives on hallucination. Our analysis calls for the necessity of explicit definitions and frameworks outlining hallucination within NLP, highlighting potential challenges, and our survey inputs provide a thematic understanding of the influence and ramifications of hallucination in society.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 2,
+              "similarity_score": 0.3133,
+              "tfidf_score": 0.3133,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 1,
+              "similarity_score": 0.9801,
+              "tfidf_score": 0.3133,
+              "semantic_score": 0.7463
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2401.03205v1",
+          "title": "The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models",
+          "summary": "In the era of large language models (LLMs), hallucination (i.e., the tendency to generate factually incorrect content) poses great challenge to trustworthy and reliable deployment of LLMs in real-world applications. To tackle the LLM hallucination, three key questions should be well studied: how to detect hallucinations (detection), why do LLMs hallucinate (source), and what can be done to mitigate them (mitigation). To address these challenges, this work presents a systematic empirical study on LLM hallucination, focused on the the three aspects of hallucination detection, source and mitigation. Specially, we construct a new hallucination benchmark HaluEval 2.0, and designs a simple yet effective detection method for LLM hallucination. Furthermore, we zoom into the different training or utilization stages of LLMs and extensively analyze the potential factors that lead to the LLM hallucination. Finally, we implement and examine a series of widely used techniques to mitigate the hallucinations in LLMs. Our work has led to several important findings to understand the hallucination origin and mitigate the hallucinations in LLMs. Our code and data can be accessed at https://github.com/RUCAIBox/HaluEval-2.0.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 3,
+              "similarity_score": 0.3015,
+              "tfidf_score": 0.3015,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2401.07897v1",
+          "title": "The Pitfalls of Defining Hallucination",
+          "summary": "Despite impressive advances in Natural Language Generation (NLG) and Large Language Models (LLMs), researchers are still unclear about important aspects of NLG evaluation. To substantiate this claim, I examine current classifications of hallucination and omission in Data-text NLG, and I propose a logic-based synthesis of these classfications. I conclude by highlighting some remaining limitations of all current thinking about hallucination and by discussing implications for LLMs.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 4,
+              "similarity_score": 0.2993,
+              "tfidf_score": 0.2993,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 3,
+              "similarity_score": 0.9528,
+              "tfidf_score": 0.2993,
+              "semantic_score": 0.7328
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2403.00896v3",
+          "title": "DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models",
+          "summary": "Since large language models (LLMs) achieve significant success in recent years, the hallucination issue remains a challenge, numerous benchmarks are proposed to detect the hallucination. Nevertheless, some of these benchmarks are not naturally generated by LLMs but are intentionally induced. Also, many merely focus on the factuality hallucination while ignoring the faithfulness hallucination. Additionally, although dialogue pattern is more widely utilized in the era of LLMs, current benchmarks only concentrate on sentence-level and passage-level hallucination. In this study, we propose DiaHalu, the first dialogue-level hallucination evaluation benchmark to our knowledge. Initially, we integrate the collected topics into system prompts and facilitate a dialogue between two ChatGPT3.5. Subsequently, we manually modify the contents that do not adhere to human language conventions and then have LLMs re-generate, simulating authentic human-machine interaction scenarios. Finally, professional scholars annotate all the samples in the dataset. DiaHalu covers four common multi-turn dialogue domains and five hallucination subtypes, extended from factuality and faithfulness hallucination. Experiments through some well-known LLMs and detection methods on the dataset show that DiaHalu is a challenging benchmark, holding significant value for further research.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 5,
+              "similarity_score": 0.2992,
+              "tfidf_score": 0.2992,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 5,
+              "similarity_score": 0.9432,
+              "tfidf_score": 0.2992,
+              "semantic_score": 0.7193
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2508.01781v1",
+          "title": "A comprehensive taxonomy of hallucinations in Large Language Models",
+          "summary": "Large language models (LLMs) have revolutionized natural language processing, yet their propensity for hallucination, generating plausible but factually incorrect or fabricated content, remains a critical challenge. This report provides a comprehensive taxonomy of LLM hallucinations, beginning with a formal definition and a theoretical framework that posits its inherent inevitability in computable LLMs, irrespective of architecture or training. It explores core distinctions, differentiating between intrinsic (contradicting input context) and extrinsic (inconsistent with training data or reality), as well as factuality (absolute correctness) and faithfulness (adherence to input). The report then details specific manifestations, including factual errors, contextual and logical inconsistencies, temporal disorientation, ethical violations, and task-specific hallucinations across domains like code generation and multimodal applications. It analyzes the underlying causes, categorizing them into data-related issues, model-related factors, and prompt-related influences. Furthermore, the report examines cognitive and human factors influencing hallucination perception, surveys evaluation benchmarks and metrics for detection, and outlines architectural and systemic mitigation strategies. Finally, it introduces web-based resources for monitoring LLM releases and performance. This report underscores the complex, multifaceted nature of LLM hallucinations and emphasizes that, given their theoretical inevitability, future efforts must focus on robust detection, mitigation, and continuous human oversight for responsible and reliable deployment in critical applications.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 1,
+              "similarity_score": 0.7719,
+              "tfidf_score": null,
+              "semantic_score": 0.7719
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2507.22915v1",
+          "title": "Theoretical Foundations and Mitigation of Hallucination in Large Language Models",
+          "summary": "Hallucination in Large Language Models (LLMs) refers to the generation of content that is not faithful to the input or the real-world facts. This paper provides a rigorous treatment of hallucination in LLMs, including formal definitions and theoretical analyses. We distinguish between intrinsic and extrinsic hallucinations, and define a \\textit{hallucination risk} for models. We derive bounds on this risk using learning-theoretic frameworks (PAC-Bayes and Rademacher complexity). We then survey detection strategies for hallucinations, such as token-level uncertainty estimation, confidence calibration, and attention alignment checks. On the mitigation side, we discuss approaches including retrieval-augmented generation, hallucination-aware fine-tuning, logit calibration, and the incorporation of fact-verification modules. We propose a unified detection and mitigation workflow, illustrated with a diagram, to integrate these strategies. Finally, we outline evaluation protocols for hallucination, recommending datasets, metrics, and experimental setups to quantify and reduce hallucinations. Our work lays a theoretical foundation and practical guidelines for addressing the crucial challenge of hallucination in LLMs.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 2,
+              "similarity_score": 0.7692,
+              "tfidf_score": null,
+              "semantic_score": 0.7692
+            },
+            "hybrid": {
+              "rank": 4,
+              "similarity_score": 0.9475,
+              "tfidf_score": 0.2748,
+              "semantic_score": 0.7692
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2311.05232v2",
+          "title": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+          "summary": "The emergence of large language models (LLMs) has marked a significant breakthrough in natural language processing (NLP), fueling a paradigm shift in information acquisition. Nevertheless, LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real-world information retrieval (IR) systems and has attracted intensive research to detect and mitigate such hallucinations. Given the open-ended general-purpose attributes inherent to LLMs, LLM hallucinations present distinct challenges that diverge from prior task-specific models. This divergence highlights the urgency for a nuanced understanding and comprehensive overview of recent advances in LLM hallucinations. In this survey, we begin with an innovative taxonomy of hallucination in the era of LLM and then delve into the factors contributing to hallucinations. Subsequently, we present a thorough overview of hallucination detection methods and benchmarks. Our discussion then transfers to representative methodologies for mitigating LLM hallucinations. Additionally, we delve into the current limitations faced by retrieval-augmented LLMs in combating hallucinations, offering insights for developing more robust IR systems. Finally, we highlight the promising research directions on LLM hallucinations, including hallucination in large vision-language models and understanding of knowledge boundaries in LLM hallucinations.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 3,
+              "similarity_score": 0.7691,
+              "tfidf_score": null,
+              "semantic_score": 0.7691
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2305.11747v3",
+          "title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+          "summary": "Large language models (LLMs), such as ChatGPT, are prone to generate hallucinations, i.e., content that conflicts with the source or cannot be verified by the factual knowledge. To understand what types of content and to which extent LLMs are apt to hallucinate, we introduce the Hallucination Evaluation benchmark for Large Language Models (HaluEval), a large collection of generated and human-annotated hallucinated samples for evaluating the performance of LLMs in recognizing hallucination. To generate these samples, we propose a ChatGPT-based two-step framework, i.e., sampling-then-filtering. Besides, we also hire some human labelers to annotate the hallucinations in ChatGPT responses. The empirical results suggest that ChatGPT is likely to generate hallucinated content in specific topics by fabricating unverifiable information (i.e., about $19.5\\%$ responses). Moreover, existing LLMs face great challenges in recognizing the hallucinations in texts. However, our experiments also prove that providing external knowledge or adding reasoning steps can help LLMs recognize hallucinations. Our benchmark can be accessed at https://github.com/RUCAIBox/HaluEval.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 4,
+              "similarity_score": 0.7656,
+              "tfidf_score": null,
+              "semantic_score": 0.7656
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2604.16430v1",
+          "title": "HalluSAE: Detecting Hallucinations in Large Language Models via Sparse Auto-Encoders",
+          "summary": "Large Language Models (LLMs) are powerful and widely adopted, but their practical impact is limited by the well-known hallucination phenomenon. While recent hallucination detection methods have made notable progress, we find most of them overlook the dynamic nature and underlying mechanisms of it. To address this gap, we propose HalluSAE, a phase transition-inspired framework that models hallucination as a critical shift in the model's latent dynamics. By modeling the generation process as a trajectory through a potential energy landscape, HalluSAE identifies critical transition zones and attributes factual errors to specific high-energy sparse features. Our approach consists of three stages: (1) Potential Energy Empowered Phase Zone Localization via sparse autoencoders and a geometric potential energy metric; (2) Hallucination-related Sparse Feature Attribution using contrastive logit attribution; and (3) Probing-based Causal Hallucination Detection through linear probes on disentangled features. Extensive experiments on Gemma-2-9B demonstrate that HalluSAE achieves state-of-the-art hallucination detection performance.",
+          "query_text": "large language models hallucination",
+          "query_category_code": "cs.CL",
+          "paper_category": "Computation and Language (Natural Language Processing)",
+          "paper_category_code": "cs.CL",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 5,
+              "similarity_score": 0.7612,
+              "tfidf_score": null,
+              "semantic_score": 0.7612
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query_index": 3,
+      "query_text": "diffusion models image generation",
+      "category_code": "cs.CV",
+      "candidates": [
+        {
+          "paper_id": "abs-2502.08580v1",
+          "title": "Ultrasound Image Generation using Latent Diffusion Models",
+          "summary": "Diffusion models for image generation have been a subject of increasing interest due to their ability to generate diverse, high-quality images. Image generation has immense potential in medical imaging because open-source medical images are difficult to obtain compared to natural images, especially for rare conditions. The generated images can be used later to train classification and segmentation models. In this paper, we propose simulating realistic ultrasound (US) images by successive fine-tuning of large diffusion models on different publicly available databases. To do so, we fine-tuned Stable Diffusion, a state-of-the-art latent diffusion model, on BUSI (Breast US Images) an ultrasound breast image dataset. We successfully generated high-quality US images of the breast using simple prompts that specify the organ and pathology, which appeared realistic to three experienced US scientists and a US radiologist. Additionally, we provided user control by conditioning the model with segmentations through ControlNet. We will release the source code at http://code.sonography.ai/ to allow fast US image generation to the scientific community.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 1,
+              "similarity_score": 0.3209,
+              "tfidf_score": 0.3209,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 1,
+              "similarity_score": 0.9478,
+              "tfidf_score": 0.3209,
+              "semantic_score": 0.6996
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2510.23574v1",
+          "title": "More Than Generation: Unifying Generation and Depth Estimation via Text-to-Image Diffusion Models",
+          "summary": "Generative depth estimation methods leverage the rich visual priors stored in pre-trained text-to-image diffusion models, demonstrating astonishing zero-shot capability. However, parameter updates during training lead to catastrophic degradation in the image generation capability of the pre-trained model. We introduce MERGE, a unified model for image generation and depth estimation, starting from a fixed pre-trained text-to-image model. MERGE demonstrates that the pre-trained text-to-image model can do more than image generation, but also expand to depth estimation effortlessly. Specifically, MERGE introduces a play-and-plug framework that enables seamless switching between image generation and depth estimation modes through simple and pluggable converters. Meanwhile, we propose a Group Reuse Mechanism to encourage parameter reuse and improve the utilization of the additional learnable parameters. MERGE unleashes the powerful depth estimation capability of the pre-trained text-to-image model while preserving its original image generation ability. Compared to other unified models for image generation and depth estimation, MERGE achieves state-of-the-art performance across multiple depth estimation benchmarks. The code will be made available at https://github.com/H-EmbodVis/MERGE",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 2,
+              "similarity_score": 0.2843,
+              "tfidf_score": 0.2843,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2502.07829v1",
+          "title": "Preference Alignment on Diffusion Model: A Comprehensive Survey for Image Generation and Editing",
+          "summary": "The integration of preference alignment with diffusion models (DMs) has emerged as a transformative approach to enhance image generation and editing capabilities. Although integrating diffusion models with preference alignment strategies poses significant challenges for novices at this intersection, comprehensive and systematic reviews of this subject are still notably lacking. To bridge this gap, this paper extensively surveys preference alignment with diffusion models in image generation and editing. First, we systematically review cutting-edge optimization techniques such as reinforcement learning with human feedback (RLHF), direct preference optimization (DPO), and others, highlighting their pivotal role in aligning preferences with DMs. Then, we thoroughly explore the applications of aligning preferences with DMs in autonomous driving, medical imaging, robotics, and more. Finally, we comprehensively discuss the challenges of preference alignment with DMs. To our knowledge, this is the first survey centered on preference alignment with DMs, providing insights to drive future innovation in this dynamic area.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 3,
+              "similarity_score": 0.2769,
+              "tfidf_score": 0.2769,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 5,
+              "similarity_score": 0.8503,
+              "tfidf_score": 0.2769,
+              "semantic_score": 0.6362
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2509.20091v1",
+          "title": "Unleashing the Potential of the Semantic Latent Space in Diffusion Models for Image Dehazing",
+          "summary": "Diffusion models have recently been investigated as powerful generative solvers for image dehazing, owing to their remarkable capability to model the data distribution. However, the massive computational burden imposed by the retraining of diffusion models, coupled with the extensive sampling steps during the inference, limit the broader application of diffusion models in image dehazing. To address these issues, we explore the properties of hazy images in the semantic latent space of frozen pre-trained diffusion models, and propose a Diffusion Latent Inspired network for Image Dehazing, dubbed DiffLI$^2$D. Specifically, we first reveal that the semantic latent space of pre-trained diffusion models can represent the content and haze characteristics of hazy images, as the diffusion time-step changes. Building upon this insight, we integrate the diffusion latent representations at different time-steps into a delicately designed dehazing network to provide instructions for image dehazing. Our DiffLI$^2$D avoids re-training diffusion models and iterative sampling process by effectively utilizing the informative representations derived from the pre-trained diffusion models, which also offers a novel perspective for introducing diffusion models to image dehazing. Extensive experiments on multiple datasets demonstrate that the proposed method achieves superior performance to existing image dehazing methods. Code is available at https://github.com/aaaasan111/difflid.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 4,
+              "similarity_score": 0.2765,
+              "tfidf_score": 0.2765,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2509.10441v1",
+          "title": "InfGen: A Resolution-Agnostic Paradigm for Scalable Image Synthesis",
+          "summary": "Arbitrary resolution image generation provides a consistent visual experience across devices, having extensive applications for producers and consumers. Current diffusion models increase computational demand quadratically with resolution, causing 4K image generation delays over 100 seconds. To solve this, we explore the second generation upon the latent diffusion models, where the fixed latent generated by diffusion models is regarded as the content representation and we propose to decode arbitrary resolution images with a compact generated latent using a one-step generator. Thus, we present the \\textbf{InfGen}, replacing the VAE decoder with the new generator, for generating images at any resolution from a fixed-size latent without retraining the diffusion models, which simplifies the process, reducing computational complexity and can be applied to any model using the same latent space. Experiments show InfGen is capable of improving many models into the arbitrary high-resolution era while cutting 4K image generation time to under 10 seconds.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 5,
+              "similarity_score": 0.2762,
+              "tfidf_score": 0.2762,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2302.01394v2",
+          "title": "Understanding and contextualising diffusion models",
+          "summary": "The latest developments in Artificial Intelligence include diffusion generative models, quite popular tools which can produce original images both unconditionally and, in some cases, conditioned by some inputs provided by the user. Apart from implementation details, which are outside the scope of this work, all of the main models used to generate images are substantially based on a common theory which restores a new image from a completely degraded one. In this work we explain how this is possible by focusing on the mathematical theory behind them, i.e. without analyzing in detail the specific implementations and related methods. The aim of this work is to clarify to the interested reader what all this means mathematically and intuitively.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 1,
+              "similarity_score": 0.7774,
+              "tfidf_score": null,
+              "semantic_score": 0.7774
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2305.19066v3",
+          "title": "Nested Diffusion Processes for Anytime Image Generation",
+          "summary": "Diffusion models are the current state-of-the-art in image generation, synthesizing high-quality images by breaking down the generation process into many fine-grained denoising steps. Despite their good performance, diffusion models are computationally expensive, requiring many neural function evaluations (NFEs). In this work, we propose an anytime diffusion-based method that can generate viable images when stopped at arbitrary times before completion. Using existing pretrained diffusion models, we show that the generation scheme can be recomposed as two nested diffusion processes, enabling fast iterative refinement of a generated image. In experiments on ImageNet and Stable Diffusion-based text-to-image generation, we show, both qualitatively and quantitatively, that our method's intermediate generation quality greatly exceeds that of the original diffusion model, while the final generation result remains comparable. We illustrate the applicability of Nested Diffusion in several settings, including for solving inverse problems, and for rapid text-based content creation by allowing user intervention throughout the sampling process.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 2,
+              "similarity_score": 0.7348,
+              "tfidf_score": null,
+              "semantic_score": 0.7348
+            },
+            "hybrid": {
+              "rank": 2,
+              "similarity_score": 0.8991,
+              "tfidf_score": 0.2629,
+              "semantic_score": 0.7348
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2604.12575v1",
+          "title": "StructDiff: A Structure-Preserving and Spatially Controllable Diffusion Model for Single-Image Generation",
+          "summary": "This paper introduces StructDiff, a generative framework based on a single-scale diffusion model for single-image generation. Single-image generation aims to synthesize diverse samples with similar visual content to the source image by capturing its internal statistics, without relying on external data. However, existing methods often struggle to preserve the structural layout, especially for images with large rigid objects or strict spatial constraints. Moreover, most approaches lack spatial controllability, making it difficult to guide the structure or placement of generated content. To address these challenges, StructDiff introduces an \\textit{adaptive receptive field} module to maintain both global and local distributions. Building on this foundation, StructDiff incorporates 3D positional encoding (PE) as a spatial prior, allowing flexible control over positions, scale, and local details of generated objects. To our knowledge, this spatial control capability represents the first exploration of PE-based manipulation in single-image generation. Furthermore, we propose a novel evaluation criterion for single-image generation based on large language models (LLMs). This criterion specifically addresses the limitations of existing objective metrics and the high labor costs associated with user studies. StructDiff also demonstrates broad applicability across downstream tasks, such as text-guided image generation, image editing, outpainting, and paint-to-image synthesis. Extensive experiments demonstrate that StructDiff outperforms existing methods in structural consistency, visual quality, and spatial controllability. The project page is available at https://butter-crab.github.io/StructDiff/.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 3,
+              "similarity_score": 0.7308,
+              "tfidf_score": null,
+              "semantic_score": 0.7308
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2406.11138v1",
+          "title": "Diffusion Models in Low-Level Vision: A Survey",
+          "summary": "Deep generative models have garnered significant attention in low-level vision tasks due to their generative capabilities. Among them, diffusion model-based solutions, characterized by a forward diffusion process and a reverse denoising process, have emerged as widely acclaimed for their ability to produce samples of superior quality and diversity. This ensures the generation of visually compelling results with intricate texture information. Despite their remarkable success, a noticeable gap exists in a comprehensive survey that amalgamates these pioneering diffusion model-based works and organizes the corresponding threads. This paper proposes the comprehensive review of diffusion model-based techniques. We present three generic diffusion modeling frameworks and explore their correlations with other deep generative models, establishing the theoretical foundation. Following this, we introduce a multi-perspective categorization of diffusion models, considering both the underlying framework and the target task. Additionally, we summarize extended diffusion models applied in other tasks, including medical, remote sensing, and video scenarios. Moreover, we provide an overview of commonly used benchmarks and evaluation metrics. We conduct a thorough evaluation, encompassing both performance and efficiency, of diffusion model-based techniques in three prominent tasks. Finally, we elucidate the limitations of current diffusion models and propose seven intriguing directions for future research. This comprehensive examination aims to facilitate a profound understanding of the landscape surrounding denoising diffusion models in the context of low-level vision tasks. A curated list of diffusion model-based techniques in over 20 low-level vision tasks can be found at https://github.com/ChunmingHe/awesome-diffusion-models-in-low-level-vision.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 4,
+              "similarity_score": 0.7264,
+              "tfidf_score": null,
+              "semantic_score": 0.7264
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2303.17189v2",
+          "title": "LayoutDiffusion: Controllable Diffusion Model for Layout-to-image Generation",
+          "summary": "Recently, diffusion models have achieved great success in image synthesis. However, when it comes to the layout-to-image generation where an image often has a complex scene of multiple objects, how to make strong control over both the global layout map and each detailed object remains a challenging task. In this paper, we propose a diffusion model named LayoutDiffusion that can obtain higher generation quality and greater controllability than the previous works. To overcome the difficult multimodal fusion of image and layout, we propose to construct a structural image patch with region information and transform the patched image into a special layout to fuse with the normal layout in a unified form. Moreover, Layout Fusion Module (LFM) and Object-aware Cross Attention (OaCA) are proposed to model the relationship among multiple objects and designed to be object-aware and position-sensitive, allowing for precisely controlling the spatial related information. Extensive experiments show that our LayoutDiffusion outperforms the previous SOTA methods on FID, CAS by relatively 46.35%, 26.70% on COCO-stuff and 44.29%, 41.82% on VG. Code is available at https://github.com/ZGCTroy/LayoutDiffusion.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 5,
+              "similarity_score": 0.709,
+              "tfidf_score": null,
+              "semantic_score": 0.709
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2605.27343v1",
+          "title": "Towards Controllable Image Generation through Representation-Conditioned Diffusion Models",
+          "summary": "Diffusion models have emerged as powerful tools for high-quality image generation and editing, but guiding these models to produce specific outputs remains a challenge. Conventional approaches rely on conditioning mechanisms, such as text prompts or semantic maps, which require extensively annotated datasets. In this preliminary work, we explore diffusion models conditioned on representations from a pre-trained self-supervised model. The self-conditioning mechanism not only improves the quality of unconditional image generation, but also provides a representation space that can be used to control the generation. We explore this conditioning space by identifying directions of variations, and demonstrate promising properties in terms of smoothness and disentanglement.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 3,
+              "similarity_score": 0.8621,
+              "tfidf_score": 0.2731,
+              "semantic_score": 0.6609
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2601.22094v1",
+          "title": "RefAny3D: 3D Asset-Referenced Diffusion Models for Image Generation",
+          "summary": "In this paper, we propose a 3D asset-referenced diffusion model for image generation, exploring how to integrate 3D assets into image diffusion models. Existing reference-based image generation methods leverage large-scale pretrained diffusion models and demonstrate strong capability in generating diverse images conditioned on a single reference image. However, these methods are limited to single-image references and cannot leverage 3D assets, constraining their practical versatility. To address this gap, we present a cross-domain diffusion model with dual-branch perception that leverages multi-view RGB images and point maps of 3D assets to jointly model their colors and canonical-space coordinates, achieving precise consistency between generated images and the 3D references. Our spatially aligned dual-branch generation architecture and domain-decoupled generation mechanism ensure the simultaneous generation of two spatially aligned but content-disentangled outputs, RGB images and point maps, linking 2D image attributes with 3D asset attributes. Experiments show that our approach effectively uses 3D assets as references to produce images consistent with the given assets, opening new possibilities for combining diffusion models with 3D content creation.",
+          "query_text": "diffusion models image generation",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 4,
+              "similarity_score": 0.8548,
+              "tfidf_score": 0.2613,
+              "semantic_score": 0.6718
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query_index": 4,
+      "query_text": "graph neural networks",
+      "category_code": "cs.LG",
+      "candidates": [
+        {
+          "paper_id": "abs-2012.08752v4",
+          "title": "Graph Neural Networks: Taxonomy, Advances and Trends",
+          "summary": "Graph neural networks provide a powerful toolkit for embedding real-world graphs into low-dimensional spaces according to specific tasks. Up to now, there have been several surveys on this topic. However, they usually lay emphasis on different angles so that the readers can not see a panorama of the graph neural networks. This survey aims to overcome this limitation, and provide a comprehensive review on the graph neural networks. First of all, we provide a novel taxonomy for the graph neural networks, and then refer to up to 400 relevant literatures to show the panorama of the graph neural networks. All of them are classified into the corresponding categories. In order to drive the graph neural networks into a new stage, we summarize four future research directions so as to overcome the facing challenges. It is expected that more and more scholars can understand and exploit the graph neural networks, and use them in their research community.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 1,
+              "similarity_score": 0.4192,
+              "tfidf_score": 0.4192,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 1,
+              "similarity_score": 0.9741,
+              "tfidf_score": 0.4192,
+              "semantic_score": 0.7218
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2606.17185v1",
+          "title": "Finsler Geometry, Graph Neural Networks, and You",
+          "summary": "Graph neural network architectures based on the graph Laplacian approximate the Laplace-Beltrami operator, thus limiting their application to isotropic operators. As a nonlinear alternative to the Laplace-Beltrami operator, we consider estimates of the Finsler Laplacian on point clouds sampled from a manifold. We prove that these discrete estimates converge to the true operator on the manifold as the number of point samples grows. Moreover, we show that this operator can be expressed as a graph neural network layer, which we use to define a family of Finslerian graph neural networks constrained to express Finsler geometry. We show that Finslerian graph neural networks recover the geometry underlying nonlinear diffusion equations in practice.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 2,
+              "similarity_score": 0.4129,
+              "tfidf_score": 0.4129,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2110.09039v1",
+          "title": "Capsule Graph Neural Networks with EM Routing",
+          "summary": "To effectively classify graph instances, graph neural networks need to have the capability to capture the part-whole relationship existing in a graph. A capsule is a group of neurons representing complicated properties of entities, which has shown its advantages in traditional convolutional neural networks. This paper proposed novel Capsule Graph Neural Networks that use the EM routing mechanism (CapsGNNEM) to generate high-quality graph embeddings. Experimental results on a number of real-world graph datasets demonstrate that the proposed CapsGNNEM outperforms nine state-of-the-art models in graph classification tasks.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 3,
+              "similarity_score": 0.3796,
+              "tfidf_score": 0.3796,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2403.13849v1",
+          "title": "Graphs Unveiled: Graph Neural Networks and Graph Generation",
+          "summary": "One of the hot topics in machine learning is the field of GNN. The complexity of graph data has imposed significant challenges on existing machine learning algorithms. Recently, many studies on extending deep learning approaches for graph data have emerged. This paper represents a survey, providing a comprehensive overview of Graph Neural Networks (GNNs). We discuss the applications of graph neural networks across various domains. Finally, we present an advanced field in GNNs: graph generation.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 4,
+              "similarity_score": 0.3723,
+              "tfidf_score": 0.3723,
+              "semantic_score": null
+            },
+            "semantic": {
+              "rank": 1,
+              "similarity_score": 0.7596,
+              "tfidf_score": null,
+              "semantic_score": 0.7596
+            },
+            "hybrid": {
+              "rank": 2,
+              "similarity_score": 0.9553,
+              "tfidf_score": 0.3723,
+              "semantic_score": 0.7596
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1902.10042v2",
+          "title": "Graph Neural Processes: Towards Bayesian Graph Neural Networks",
+          "summary": "We introduce Graph Neural Processes (GNP), inspired by the recent work in conditional and latent neural processes. A Graph Neural Process is defined as a Conditional Neural Process that operates on arbitrary graph data. It takes features of sparsely observed context points as input, and outputs a distribution over target points. We demonstrate graph neural processes in edge imputation and discuss benefits and drawbacks of the method for other application areas. One major benefit of GNPs is the ability to quantify uncertainty in deep learning on graph structures. An additional benefit of this method is the ability to extend graph neural networks to inputs of dynamic sized graphs.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 5,
+              "similarity_score": 0.3691,
+              "tfidf_score": 0.3691,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2204.03080v5",
+          "title": "Graph Neural Networks Designed for Different Graph Types: A Survey",
+          "summary": "Graphs are ubiquitous in nature and can therefore serve as models for many practical but also theoretical problems. For this purpose, they can be defined as many different types which suitably reflect the individual contexts of the represented problem. To address cutting-edge problems based on graph data, the research field of Graph Neural Networks (GNNs) has emerged. Despite the field's youth and the speed at which new models are developed, many recent surveys have been published to keep track of them. Nevertheless, it has not yet been gathered which GNN can process what kind of graph types. In this survey, we give a detailed overview of already existing GNNs and, unlike previous surveys, categorize them according to their ability to handle different graph types and properties. We consider GNNs operating on static and dynamic graphs of different structural constitutions, with or without node or edge attributes. Moreover, we distinguish between GNN models for discrete-time or continuous-time dynamic graphs and group the models according to their architecture. We find that there are still graph types that are not or only rarely covered by existing GNN models. We point out where models are missing and give potential reasons for their absence.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 2,
+              "similarity_score": 0.7521,
+              "tfidf_score": null,
+              "semantic_score": 0.7521
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2007.08649v1",
+          "title": "Graph Neural Networks for Node-Level Predictions",
+          "summary": "The success of deep learning has revolutionized many fields of research including areas of computer vision, text and speech processing. Enormous research efforts have led to numerous methods that are capable of efficiently analyzing data, especially in the Euclidean space. However, many problems are posed in non-Euclidean domains modeled as general graphs with complex connection patterns. Increased problem complexity and computational power constraints have limited early approaches to static and small-sized graphs. In recent years, a rising interest in machine learning on graph-structured data has been accompanied by improved methods that overcome the limitations of their predecessors. These methods paved the way for dealing with large-scale and time-dynamic graphs. This work aims to provide an overview of early and modern graph neural network based machine learning methods for node-level prediction tasks. Under the umbrella of taxonomies already established in the literature, we explain the core concepts and provide detailed explanations for convolutional methods that have had strong impact. In addition, we introduce common benchmarks and present selected applications from various areas. Finally, we discuss open problems for further research.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 3,
+              "similarity_score": 0.746,
+              "tfidf_score": null,
+              "semantic_score": 0.746
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2108.10733v2",
+          "title": "Graph Neural Networks: Methods, Applications, and Opportunities",
+          "summary": "In the last decade or so, we have witnessed deep learning reinvigorating the machine learning field. It has solved many problems in the domains of computer vision, speech recognition, natural language processing, and various other tasks with state-of-the-art performance. The data is generally represented in the Euclidean space in these domains. Various other domains conform to non-Euclidean space, for which graph is an ideal representation. Graphs are suitable for representing the dependencies and interrelationships between various entities. Traditionally, handcrafted features for graphs are incapable of providing the necessary inference for various tasks from this complex data representation. Recently, there is an emergence of employing various advances in deep learning to graph data-based tasks. This article provides a comprehensive survey of graph neural networks (GNNs) in each learning setting: supervised, unsupervised, semi-supervised, and self-supervised learning. Taxonomy of each graph based learning setting is provided with logical divisions of methods falling in the given learning setting. The approaches for each learning task are analyzed from both theoretical as well as empirical standpoints. Further, we provide general architecture guidelines for building GNNs. Various applications and benchmark datasets are also provided, along with open challenges still plaguing the general applicability of GNNs.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 4,
+              "similarity_score": 0.7459,
+              "tfidf_score": null,
+              "semantic_score": 0.7459
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2401.01626v2",
+          "title": "On the Expressive Power of Graph Neural Networks",
+          "summary": "The study of Graph Neural Networks has received considerable interest in the past few years. By extending deep learning to graph-structured data, GNNs can solve a diverse set of tasks in fields including social science, chemistry, and medicine. The development of GNN architectures has largely been focused on improving empirical performance on tasks like node or graph classification. However, a line of recent work has instead sought to find GNN architectures that have desirable theoretical properties - by studying their expressive power and designing architectures that maximize this expressiveness. While there is no consensus on the best way to define the expressiveness of a GNN, it can be viewed from several well-motivated perspectives. Perhaps the most natural approach is to study the universal approximation properties of GNNs, much in the way that this has been studied extensively for MLPs. Another direction focuses on the extent to which GNNs can distinguish between different graph structures, relating this to the graph isomorphism test. Besides, a GNN's ability to compute graph properties such as graph moments has been suggested as another form of expressiveness. All of these different definitions are complementary and have yielded different recommendations for GNN architecture choices. In this paper, we would like to give an overview of the notion of \"expressive power\" of GNNs and provide some valuable insights regarding the design choices of GNNs.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 5,
+              "similarity_score": 0.7388,
+              "tfidf_score": null,
+              "semantic_score": 0.7388
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2306.06547v2",
+          "title": "Local-to-global Perspectives on Graph Neural Networks",
+          "summary": "This thesis presents a local-to-global perspective on graph neural networks (GNN), the leading architecture to process graph-structured data. After categorizing GNN into local Message Passing Neural Networks (MPNN) and global Graph transformers, we present three pieces of work: 1) study the convergence property of a type of global GNN, Invariant Graph Networks, 2) connect the local MPNN and global Graph Transformer, and 3) use local MPNN for graph coarsening, a standard subroutine used in global modeling.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 3,
+              "similarity_score": 0.8907,
+              "tfidf_score": 0.32,
+              "semantic_score": 0.7382
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1901.00596v4",
+          "title": "A Comprehensive Survey on Graph Neural Networks",
+          "summary": "Deep learning has revolutionized many machine learning tasks in recent years, ranging from image classification and video processing to speech recognition and natural language understanding. The data in these tasks are typically represented in the Euclidean space. However, there is an increasing number of applications where data are generated from non-Euclidean domains and are represented as graphs with complex relationships and interdependency between objects. The complexity of graph data has imposed significant challenges on existing machine learning algorithms. Recently, many studies on extending deep learning approaches for graph data have emerged. In this survey, we provide a comprehensive overview of graph neural networks (GNNs) in data mining and machine learning fields. We propose a new taxonomy to divide the state-of-the-art graph neural networks into four categories, namely recurrent graph neural networks, convolutional graph neural networks, graph autoencoders, and spatial-temporal graph neural networks. We further discuss the applications of graph neural networks across various domains and summarize the open source codes, benchmark data sets, and model evaluation of graph neural networks. Finally, we propose potential research directions in this rapidly growing field.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 4,
+              "similarity_score": 0.8898,
+              "tfidf_score": 0.3481,
+              "semantic_score": 0.6976
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2104.13492v2",
+          "title": "An Energy-Based View of Graph Neural Networks",
+          "summary": "Graph neural networks are a popular variant of neural networks that work with graph-structured data. In this work, we consider combining graph neural networks with the energy-based view of Grathwohl et al. (2019) with the aim of obtaining a more robust classifier. We successfully implement this framework by proposing a novel method to ensure generation over features as well as the adjacency matrix and evaluate our method against the standard graph convolutional network (GCN) architecture (Kipf & Welling (2016)). Our approach obtains comparable discriminative performance while improving robustness, opening promising new directions for future research for energy-based graph neural networks.",
+          "query_text": "graph neural networks",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 5,
+              "similarity_score": 0.8847,
+              "tfidf_score": 0.3551,
+              "semantic_score": 0.6803
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query_index": 5,
+      "query_text": "reinforcement learning from human feedback",
+      "category_code": "cs.LG",
+      "candidates": [
+        {
+          "paper_id": "abs-2406.10030v1",
+          "title": "Off-Policy Evaluation from Logged Human Feedback",
+          "summary": "Learning from human feedback has been central to recent advances in artificial intelligence and machine learning. Since the collection of human feedback is costly, a natural question to ask is if the new feedback always needs to collected. Or could we evaluate a new model with the human feedback on responses of another model? This motivates us to study off-policy evaluation from logged human feedback. We formalize the problem, propose both model-based and model-free estimators for policy values, and show how to optimize them. We analyze unbiasedness of our estimators and evaluate them empirically. Our estimators can predict the absolute values of evaluated policies, rank them, and be optimized.",
+          "query_text": "reinforcement learning from human feedback",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 1,
+              "similarity_score": 0.3984,
+              "tfidf_score": 0.3984,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 3,
+              "similarity_score": 0.8925,
+              "tfidf_score": 0.3984,
+              "semantic_score": 0.5505
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2504.12501v9",
+          "title": "Reinforcement Learning from Human Feedback",
+          "summary": "Reinforcement learning from human feedback (RLHF) has become an important technical and storytelling tool to deploy the latest machine learning systems. In this book, we hope to give a gentle introduction to the core methods for people with some level of quantitative background. The book starts with the origins of RLHF -- both in recent literature and in a convergence of disparate fields of science in economics, philosophy, and optimal control. We then set the stage with definitions, problem formulation, data collection, and other common math used in the literature. The core of the book details every optimization stage in using RLHF, from starting with instruction tuning to training a reward model and finally all of rejection sampling, reinforcement learning, and direct alignment algorithms. The book concludes with advanced topics -- understudied research questions in synthetic data and evaluation -- and open questions for the field.",
+          "query_text": "reinforcement learning from human feedback",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 2,
+              "similarity_score": 0.3614,
+              "tfidf_score": 0.3614,
+              "semantic_score": null
+            },
+            "semantic": {
+              "rank": 1,
+              "similarity_score": 0.6983,
+              "tfidf_score": null,
+              "semantic_score": 0.6983
+            },
+            "hybrid": {
+              "rank": 1,
+              "similarity_score": 0.9628,
+              "tfidf_score": 0.3614,
+              "semantic_score": 0.6983
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2504.14732v3",
+          "title": "Reinforcement Learning from Multi-level and Episodic Human Feedback",
+          "summary": "Designing an effective reward function has long been a challenge in reinforcement learning, particularly for complex tasks in unstructured environments. To address this, various learning paradigms have emerged that leverage different forms of human input to specify or refine the reward function. Reinforcement learning from human feedback is a prominent approach that utilizes human comparative feedback, expressed as a preference for one behavior over another, to tackle this problem. In contrast to comparative feedback, we explore multi-level human feedback, which is provided in the form of a score at the end of each episode. This type of feedback offers more coarse but informative signals about the underlying reward function than binary feedback. Additionally, it can handle non-Markovian rewards, as it is based on the evaluation of an entire episode. We propose an algorithm to efficiently learn both the reward function and the optimal policy from this form of feedback. Moreover, we show that the proposed algorithm achieves sublinear regret and demonstrate its empirical effectiveness through extensive simulations.",
+          "query_text": "reinforcement learning from human feedback",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 3,
+              "similarity_score": 0.3599,
+              "tfidf_score": 0.3599,
+              "semantic_score": null
+            },
+            "semantic": {
+              "rank": 2,
+              "similarity_score": 0.6928,
+              "tfidf_score": null,
+              "semantic_score": 0.6928
+            },
+            "hybrid": {
+              "rank": 2,
+              "similarity_score": 0.9574,
+              "tfidf_score": 0.3599,
+              "semantic_score": 0.6928
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2512.16626v1",
+          "title": "Stackelberg Learning from Human Feedback: Preference Optimization as a Sequential Game",
+          "summary": "We introduce Stackelberg Learning from Human Feedback (SLHF), a new framework for preference optimization. SLHF frames the alignment problem as a sequential-move game between two policies: a Leader, which commits to an action, and a Follower, which responds conditionally on the Leader's action. This approach decomposes preference optimization into a refinement problem for the Follower and an optimization problem against an adversary for the Leader. Unlike Reinforcement Learning from Human Feedback (RLHF), which assigns scalar rewards to actions, or Nash Learning from Human Feedback (NLHF), which seeks a simultaneous-move equilibrium, SLHF leverages the asymmetry of sequential play to capture richer preference structures. The sequential design of SLHF naturally enables inference-time refinement, as the Follower learns to improve the Leader's actions, and these refinements can be leveraged through iterative sampling. We compare the solution concepts of SLHF, RLHF, and NLHF, and lay out key advantages in consistency, data sensitivity, and robustness to intransitive preferences. Experiments on large language models demonstrate that SLHF achieves strong alignment across diverse preference datasets, scales from 0.5B to 8B parameters, and yields inference-time refinements that transfer across model families without further fine-tuning.",
+          "query_text": "reinforcement learning from human feedback",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 4,
+              "similarity_score": 0.3545,
+              "tfidf_score": 0.3545,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 5,
+              "similarity_score": 0.8533,
+              "tfidf_score": 0.3545,
+              "semantic_score": 0.5571
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2503.09561v2",
+          "title": "Strategyproof Reinforcement Learning from Human Feedback",
+          "summary": "We study Reinforcement Learning from Human Feedback (RLHF) in settings where multiple labelers may strategically misreport feedback to steer the learned policy toward their own preferences. We show that existing RLHF algorithms, including recent pluralistic methods, are not strategyproof, and that even a single strategic labeler can cause arbitrarily large misalignment with social welfare. Moreover, we prove that, in the worst case, any strategyproof RLHF algorithm must perform $k$-times worse than the optimal policy, where $k$ is the number of labelers. This suggests a fundamental trade-off between incentive alignment (ensuring labelers report truthfully) and policy alignment (maximizing social welfare). To address this, we propose the Pessimistic Median of MLEs algorithm, which, under appropriate policy coverage assumptions, is approximately strategyproof and converges to the optimal policy as the number of labelers and samples increases. Our results apply to both contextual bandits and Markov decision processes.",
+          "query_text": "reinforcement learning from human feedback",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 5,
+              "similarity_score": 0.3336,
+              "tfidf_score": 0.3336,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1902.04257v1",
+          "title": "Deep Reinforcement Learning from Policy-Dependent Human Feedback",
+          "summary": "To widen their accessibility and increase their utility, intelligent agents must be able to learn complex behaviors as specified by (non-expert) human users. Moreover, they will need to learn these behaviors within a reasonable amount of time while efficiently leveraging the sparse feedback a human trainer is capable of providing. Recent work has shown that human feedback can be characterized as a critique of an agent's current behavior rather than as an alternative reward signal to be maximized, culminating in the COnvergent Actor-Critic by Humans (COACH) algorithm for making direct policy updates based on human feedback. Our work builds on COACH, moving to a setting where the agent's policy is represented by a deep neural network. We employ a series of modifications on top of the original COACH algorithm that are critical for successfully learning behaviors from high-dimensional observations, while also satisfying the constraint of obtaining reduced sample complexity. We demonstrate the effectiveness of our Deep COACH algorithm in the rich 3D world of Minecraft with an agent that learns to complete tasks by mapping from raw pixels to actions using only real-time human feedback in 10-15 minutes of interaction.",
+          "query_text": "reinforcement learning from human feedback",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 3,
+              "similarity_score": 0.6838,
+              "tfidf_score": null,
+              "semantic_score": 0.6838
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2507.15507v1",
+          "title": "Off-Policy Corrected Reward Modeling for Reinforcement Learning from Human Feedback",
+          "summary": "Reinforcement Learning from Human Feedback (RLHF) allows us to train models, such as language models (LMs), to follow complex human preferences. In RLHF for LMs, we first train an LM using supervised fine-tuning, sample pairs of responses, obtain human feedback, and use the resulting data to train a reward model (RM). RL methods are then used to train the LM to maximize the reward given by the RM. As training progresses, the responses generated by the LM no longer resemble the responses seen by the RM during training, leading to the RM becoming inaccurate. The score given by the RM keeps increasing, but the learned behavior no longer matches the human preferences. This issue is known as overoptimization. We investigate overoptimization from the point of view of distribution shift and show that the shift results in an inconsistent estimate of the RM parameters, leading to an inconsistent estimate of the policy gradient. We propose Off-Policy Corrected Reward Modeling (OCRM), which iteratively off-policy corrects the RM using importance weighting, without requiring new labels or samples. This results in a more accurate RM, which empirically leads to an improved final policy. We validate our approach in experiments with summarization and chatbot datasets and show that it performs significantly better than standard RLHF methods and baselines. Our implementation is available at https://github.com/JohannesAck/OffPolicyCorrectedRewardModeling",
+          "query_text": "reinforcement learning from human feedback",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 4,
+              "similarity_score": 0.6695,
+              "tfidf_score": null,
+              "semantic_score": 0.6695
+            },
+            "hybrid": {
+              "rank": 4,
+              "similarity_score": 0.884,
+              "tfidf_score": 0.3036,
+              "semantic_score": 0.6695
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2406.07455v2",
+          "title": "Reinforcement Learning from Human Feedback without Reward Inference: Model-Free Algorithm and Instance-Dependent Analysis",
+          "summary": "In this paper, we study reinforcement learning from human feedback (RLHF) under an episodic Markov decision process with a general trajectory-wise reward model. We developed a model-free RLHF best policy identification algorithm, called $\\mathsf{BSAD}$, without explicit reward model inference, which is a critical intermediate step in the contemporary RLHF paradigms for training large language models (LLM). The algorithm identifies the optimal policy directly from human preference information in a backward manner, employing a dueling bandit sub-routine that constantly duels actions to identify the superior one. $\\mathsf{BSAD}$ adopts a reward-free exploration and best-arm-identification-like adaptive stopping criteria to equalize the visitation among all states in the same decision step while moving to the previous step as soon as the optimal action is identifiable, leading to a provable, instance-dependent sample complexity $\\tilde{\\mathcal{O}}(c_{\\mathcal{M}}SA^3H^3M\\log\\frac{1}{\\delta})$ which resembles the result in classic RL, where $c_{\\mathcal{M}}$ is the instance-dependent constant and $M$ is the batch size. Moreover, $\\mathsf{BSAD}$ can be transformed into an explore-then-commit algorithm with logarithmic regret and generalized to discounted MDPs using a frame-based approach. Our results show: (i) sample-complexity-wise, RLHF is not significantly harder than classic RL and (ii) end-to-end RLHF may deliver improved performance by avoiding pitfalls in reward inferring such as overfit and distribution shift.",
+          "query_text": "reinforcement learning from human feedback",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 5,
+              "similarity_score": 0.6394,
+              "tfidf_score": null,
+              "semantic_score": 0.6394
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query_index": 6,
+      "query_text": "federated learning privacy",
+      "category_code": "cs.LG",
+      "candidates": [
+        {
+          "paper_id": "abs-2503.13550v1",
+          "title": "Towards Privacy-Preserving Data-Driven Education: The Potential of Federated Learning",
+          "summary": "The increasing adoption of data-driven applications in education such as in learning analytics and AI in education has raised significant privacy and data protection concerns. While these challenges have been widely discussed in previous works, there are still limited practical solutions. Federated learning has recently been discoursed as a promising privacy-preserving technique, yet its application in education remains scarce. This paper presents an experimental evaluation of federated learning for educational data prediction, comparing its performance to traditional non-federated approaches. Our findings indicate that federated learning achieves comparable predictive accuracy. Furthermore, under adversarial attacks, federated learning demonstrates greater resilience compared to non-federated settings. We summarise that our results reinforce the value of federated learning as a potential approach for balancing predictive performance and privacy in educational contexts.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 1,
+              "similarity_score": 0.406,
+              "tfidf_score": 0.406,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 1,
+              "similarity_score": 0.983,
+              "tfidf_score": 0.406,
+              "semantic_score": 0.8293
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1911.10071v1",
+          "title": "Federated Learning with Bayesian Differential Privacy",
+          "summary": "We consider the problem of reinforcing federated learning with formal privacy guarantees. We propose to employ Bayesian differential privacy, a relaxation of differential privacy for similarly distributed data, to provide sharper privacy loss bounds. We adapt the Bayesian privacy accounting method to the federated setting and suggest multiple improvements for more efficient privacy budgeting at different levels. Our experiments show significant advantage over the state-of-the-art differential privacy bounds for federated learning on image classification tasks, including a medical application, bringing the privacy budget below 1 at the client level, and below 0.1 at the instance level. Lower amounts of noise also benefit the model accuracy and reduce the number of communication rounds.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 2,
+              "similarity_score": 0.398,
+              "tfidf_score": 0.398,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 2,
+              "similarity_score": 0.9443,
+              "tfidf_score": 0.398,
+              "semantic_score": 0.7792
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2010.01017v2",
+          "title": "Practical One-Shot Federated Learning for Cross-Silo Setting",
+          "summary": "Federated learning enables multiple parties to collaboratively learn a model without exchanging their data. While most existing federated learning algorithms need many rounds to converge, one-shot federated learning (i.e., federated learning with a single communication round) is a promising approach to make federated learning applicable in cross-silo setting in practice. However, existing one-shot algorithms only support specific models and do not provide any privacy guarantees, which significantly limit the applications in practice. In this paper, we propose a practical one-shot federated learning algorithm named FedKT. By utilizing the knowledge transfer technique, FedKT can be applied to any classification models and can flexibly achieve differential privacy guarantees. Our experiments on various tasks show that FedKT can significantly outperform the other state-of-the-art federated learning algorithms with a single communication round.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 3,
+              "similarity_score": 0.3889,
+              "tfidf_score": 0.3889,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2203.13789v3",
+          "title": "FLUTE: A Scalable, Extensible Framework for High-Performance Federated Learning Simulations",
+          "summary": "In this paper we introduce \"Federated Learning Utilities and Tools for Experimentation\" (FLUTE), a high-performance open-source platform for federated learning research and offline simulations. The goal of FLUTE is to enable rapid prototyping and simulation of new federated learning algorithms at scale, including novel optimization, privacy, and communications strategies. We describe the architecture of FLUTE, enabling arbitrary federated modeling schemes to be realized. We compare the platform with other state-of-the-art platforms and describe available features of FLUTE for experimentation in core areas of active research, such as optimization, privacy, and scalability. A comparison with other established platforms shows speed-ups of up to 42x and savings in memory footprint of 3x. A sample of the platform capabilities is also presented for a range of tasks, as well as other functionality, such as linear scaling for the number of participating clients, and a variety of federated optimizers, including FedAdam, DGA, etcetera.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 4,
+              "similarity_score": 0.3641,
+              "tfidf_score": 0.3641,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1907.09693v7",
+          "title": "A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection",
+          "summary": "Federated learning has been a hot research topic in enabling the collaborative training of machine learning models among different organizations under the privacy restrictions. As researchers try to support more machine learning models with different privacy-preserving approaches, there is a requirement in developing systems and infrastructures to ease the development of various federated learning algorithms. Similar to deep learning systems such as PyTorch and TensorFlow that boost the development of deep learning, federated learning systems (FLSs) are equivalently important, and face challenges from various aspects such as effectiveness, efficiency, and privacy. In this survey, we conduct a comprehensive review on federated learning systems. To achieve smooth flow and guide future research, we introduce the definition of federated learning systems and analyze the system components. Moreover, we provide a thorough categorization for federated learning systems according to six different aspects, including data distribution, machine learning model, privacy mechanism, communication architecture, scale of federation and motivation of federation. The categorization can help the design of federated learning systems as shown in our case studies. By systematically summarizing the existing federated learning systems, we present the design factors, case studies, and future research opportunities.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 5,
+              "similarity_score": 0.3639,
+              "tfidf_score": 0.3639,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 3,
+              "similarity_score": 0.93,
+              "tfidf_score": 0.3639,
+              "semantic_score": 0.8105
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2505.04889v1",
+          "title": "FedRE: Robust and Effective Federated Learning with Privacy Preference",
+          "summary": "Despite Federated Learning (FL) employing gradient aggregation at the server for distributed training to prevent the privacy leakage of raw data, private information can still be divulged through the analysis of uploaded gradients from clients. Substantial efforts have been made to integrate local differential privacy (LDP) into the system to achieve a strict privacy guarantee. However, existing methods fail to take practical issues into account by merely perturbing each sample with the same mechanism while each client may have their own privacy preferences on privacy-sensitive information (PSI), which is not uniformly distributed across the raw data. In such a case, excessive privacy protection from private-insensitive information can additionally introduce unnecessary noise, which may degrade the model performance. In this work, we study the PSI within data and develop FedRE, that can simultaneously achieve robustness and effectiveness benefits with LDP protection. More specifically, we first define PSI with regard to the privacy preferences of each client. Then, we optimize the LDP by allocating less privacy budget to gradients with higher PSI in a layer-wise manner, thus providing a stricter privacy guarantee for PSI. Furthermore, to mitigate the performance degradation caused by LDP, we design a parameter aggregation mechanism based on the distribution of the perturbed information. We conducted experiments with text tamper detection on T-SROIE and DocTamper datasets, and FedRE achieves competitive performance compared to state-of-the-art methods.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 1,
+              "similarity_score": 0.857,
+              "tfidf_score": null,
+              "semantic_score": 0.857
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2408.08642v1",
+          "title": "The Power of Bias: Optimizing Client Selection in Federated Learning with Heterogeneous Differential Privacy",
+          "summary": "To preserve the data privacy, the federated learning (FL) paradigm emerges in which clients only expose model gradients rather than original data for conducting model training. To enhance the protection of model gradients in FL, differentially private federated learning (DPFL) is proposed which incorporates differentially private (DP) noises to obfuscate gradients before they are exposed. Yet, an essential but largely overlooked problem in DPFL is the heterogeneity of clients' privacy requirement, which can vary significantly between clients and extremely complicates the client selection problem in DPFL. In other words, both the data quality and the influence of DP noises should be taken into account when selecting clients. To address this problem, we conduct convergence analysis of DPFL under heterogeneous privacy, a generic client selection strategy, popular DP mechanisms and convex loss. Based on convergence analysis, we formulate the client selection problem to minimize the value of loss function in DPFL with heterogeneous privacy, which is a convex optimization problem and can be solved efficiently. Accordingly, we propose the DPFL-BCS (biased client selection) algorithm. The extensive experiment results with real datasets under both convex and non-convex loss functions indicate that DPFL-BCS can remarkably improve model utility compared with the SOTA baselines.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 2,
+              "similarity_score": 0.8553,
+              "tfidf_score": null,
+              "semantic_score": 0.8553
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2202.03672v2",
+          "title": "APPFL: Open-Source Software Framework for Privacy-Preserving Federated Learning",
+          "summary": "Federated learning (FL) enables training models at different sites and updating the weights from the training instead of transferring data to a central location and training as in classical machine learning. The FL capability is especially important to domains such as biomedicine and smart grid, where data may not be shared freely or stored at a central location because of policy challenges. Thanks to the capability of learning from decentralized datasets, FL is now a rapidly growing research field, and numerous FL frameworks have been developed. In this work, we introduce APPFL, the Argonne Privacy-Preserving Federated Learning framework. APPFL allows users to leverage implemented privacy-preserving algorithms, implement new algorithms, and simulate and deploy various FL algorithms with privacy-preserving techniques. The modular framework enables users to customize the components for algorithms, privacy, communication protocols, neural network models, and user data. We also present a new communication-efficient algorithm based on an inexact alternating direction method of multipliers. The algorithm requires significantly less communication between the server and the clients than does the current state of the art. We demonstrate the computational capabilities of APPFL, including differentially private FL on various test datasets and its scalability, by using multiple algorithms and datasets on different computing environments.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 3,
+              "similarity_score": 0.8539,
+              "tfidf_score": null,
+              "semantic_score": 0.8539
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2602.22633v1",
+          "title": "Tackling Privacy Heterogeneity in Differentially Private Federated Learning",
+          "summary": "Differentially private federated learning (DP-FL) enables clients to collaboratively train machine learning models while preserving the privacy of their local data. However, most existing DP-FL approaches assume that all clients share a uniform privacy budget, an assumption that does not hold in real-world scenarios where privacy requirements vary widely. This privacy heterogeneity poses a significant challenge: conventional client selection strategies, which typically rely on data quantity, cannot distinguish between clients providing high-quality updates and those introducing substantial noise due to strict privacy constraints. To address this gap, we present the first systematic study of privacy-aware client selection in DP-FL. We establish a theoretical foundation by deriving a convergence analysis that quantifies the impact of privacy heterogeneity on training error. Building on this analysis, we propose a privacy-aware client selection strategy, formulated as a convex optimization problem, that adaptively adjusts selection probabilities to minimize training error. Extensive experiments on benchmark datasets demonstrate that our approach achieves up to a 10% improvement in test accuracy on CIFAR-10 compared to existing baselines under heterogeneous privacy budgets. These results highlight the importance of incorporating privacy heterogeneity into client selection for practical and effective federated learning.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 4,
+              "similarity_score": 0.8479,
+              "tfidf_score": null,
+              "semantic_score": 0.8479
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2503.21154v1",
+          "title": "Federated Learning with Differential Privacy: An Utility-Enhanced Approach",
+          "summary": "Federated learning has emerged as an attractive approach to protect data privacy by eliminating the need for sharing clients' data while reducing communication costs compared with centralized machine learning algorithms. However, recent studies have shown that federated learning alone does not guarantee privacy, as private data may still be inferred from the uploaded parameters to the central server. In order to successfully avoid data leakage, adopting differential privacy (DP) in the local optimization process or in the local update aggregation process has emerged as two feasible ways for achieving sample-level or user-level privacy guarantees respectively, in federated learning models. However, compared to their non-private equivalents, these approaches suffer from a poor utility. To improve the privacy-utility trade-off, we present a modification to these vanilla differentially private algorithms based on a Haar wavelet transformation step and a novel noise injection scheme that significantly lowers the asymptotic bound of the noise variance. We also present a holistic convergence analysis of our proposed algorithm, showing that our method yields better convergence performance than the vanilla DP algorithms. Numerical experiments on real-world datasets demonstrate that our method outperforms existing approaches in model utility while maintaining the same privacy guarantees.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 5,
+              "similarity_score": 0.8446,
+              "tfidf_score": null,
+              "semantic_score": 0.8446
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2504.00282v1",
+          "title": "Federated Learning for Cross-Domain Data Privacy: A Distributed Approach to Secure Collaboration",
+          "summary": "This paper proposes a data privacy protection framework based on federated learning, which aims to realize effective cross-domain data collaboration under the premise of ensuring data privacy through distributed learning. Federated learning greatly reduces the risk of privacy breaches by training the model locally on each client and sharing only model parameters rather than raw data. The experiment verifies the high efficiency and privacy protection ability of federated learning under different data sources through the simulation of medical, financial, and user data. The results show that federated learning can not only maintain high model performance in a multi-domain data environment but also ensure effective protection of data privacy. The research in this paper provides a new technical path for cross-domain data collaboration and promotes the application of large-scale data analysis and machine learning while protecting privacy.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 4,
+              "similarity_score": 0.9257,
+              "tfidf_score": 0.3571,
+              "semantic_score": 0.8145
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2209.14086v2",
+          "title": "Momentum Gradient Descent Federated Learning with Local Differential Privacy",
+          "summary": "Nowadays, the development of information technology is growing rapidly. In the big data era, the privacy of personal information has been more pronounced. The major challenge is to find a way to guarantee that sensitive personal information is not disclosed while data is published and analyzed. Centralized differential privacy is established on the assumption of a trusted third-party data curator. However, this assumption is not always true in reality. As a new privacy preservation model, local differential privacy has relatively strong privacy guarantees. Although federated learning has relatively been a privacy-preserving approach for distributed learning, it still introduces various privacy concerns. To avoid privacy threats and reduce communication costs, in this article, we propose integrating federated learning and local differential privacy with momentum gradient descent to improve the performance of machine learning models.",
+          "query_text": "federated learning privacy",
+          "query_category_code": "cs.LG",
+          "paper_category": "Machine Learning",
+          "paper_category_code": "cs.LG",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 5,
+              "similarity_score": 0.9184,
+              "tfidf_score": 0.3371,
+              "semantic_score": 0.8348
+            }
+          }
+        }
+      ]
+    },
+    {
+      "query_index": 7,
+      "query_text": "computer vision image classification",
+      "category_code": "cs.CV",
+      "candidates": [
+        {
+          "paper_id": "abs-2406.00239v1",
+          "title": "A Review of Pulse-Coupled Neural Network Applications in Computer Vision and Image Processing",
+          "summary": "Research in neural models inspired by mammal's visual cortex has led to many spiking neural networks such as pulse-coupled neural networks (PCNNs). These models are oscillating, spatio-temporal models stimulated with images to produce several time-based responses. This paper reviews PCNN's state of the art, covering its mathematical formulation, variants, and other simplifications found in the literature. We present several applications in which PCNN architectures have successfully addressed some fundamental image processing and computer vision challenges, including image segmentation, edge detection, medical imaging, image fusion, image compression, object recognition, and remote sensing. Results achieved in these applications suggest that the PCNN architecture generates useful perceptual information relevant to a wide variety of computer vision tasks.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 1,
+              "similarity_score": 0.2703,
+              "tfidf_score": 0.2703,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1109.1057v1",
+          "title": "Toward Designing Intelligent PDEs for Computer Vision: An Optimal Control Approach",
+          "summary": "Many computer vision and image processing problems can be posed as solving partial differential equations (PDEs). However, designing PDE system usually requires high mathematical skills and good insight into the problems. In this paper, we consider designing PDEs for various problems arising in computer vision and image processing in a lazy manner: \\emph{learning PDEs from real data via data-based optimal control}. We first propose a general intelligent PDE system which holds the basic translational and rotational invariance rule for most vision problems. By introducing a PDE-constrained optimal control framework, it is possible to use the training data resulting from multiple ways (ground truth, results from other methods, and manual results from humans) to learn PDEs for different computer vision tasks. The proposed optimal control based training framework aims at learning a PDE-based regressor to approximate the unknown (and usually nonlinear) mapping of different vision tasks. The experimental results show that the learnt PDEs can solve different vision problems reasonably well. In particular, we can obtain PDEs not only for problems that traditional PDEs work well but also for problems that PDE-based methods have never been tried before, due to the difficulty in describing those problems in a mathematical way.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 2,
+              "similarity_score": 0.2657,
+              "tfidf_score": 0.2657,
+              "semantic_score": null
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2312.01232v2",
+          "title": "A Comprehensive Study of Vision Transformers in Image Classification Tasks",
+          "summary": "Image Classification is a fundamental task in the field of computer vision that frequently serves as a benchmark for gauging advancements in Computer Vision. Over the past few years, significant progress has been made in image classification due to the emergence of deep learning. However, challenges still exist, such as modeling fine-grained visual information, high computation costs, the parallelism of the model, and inconsistent evaluation protocols across datasets. In this paper, we conduct a comprehensive survey of existing papers on Vision Transformers for image classification. We first introduce the popular image classification datasets that influenced the design of models. Then, we present Vision Transformers models in chronological order, starting with early attempts at adapting attention mechanism to vision tasks followed by the adoption of vision transformers, as they have demonstrated success in capturing intricate patterns and long-range dependencies within images. Finally, we discuss open problems and shed light on opportunities for image classification to facilitate new research ideas.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 3,
+              "similarity_score": 0.2621,
+              "tfidf_score": 0.2621,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 2,
+              "similarity_score": 0.8777,
+              "tfidf_score": 0.2621,
+              "semantic_score": 0.5189
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1703.05571v1",
+          "title": "From visual words to a visual grammar: using language modelling for image classification",
+          "summary": "The Bag--of--Visual--Words (BoVW) is a visual description technique that aims at shortening the semantic gap by partitioning a low--level feature space into regions of the feature space that potentially correspond to visual concepts and by giving more value to this space. In this paper we present a conceptual analysis of three major properties of language grammar and how they can be adapted to the computer vision and image understanding domain based on the bag of visual words paradigm. Evaluation of the visual grammar shows that a positive impact on classification accuracy and/or descriptor size is obtained when the technique are applied when the proposed techniques are applied.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 4,
+              "similarity_score": 0.2593,
+              "tfidf_score": 0.2593,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 1,
+              "similarity_score": 0.9101,
+              "tfidf_score": 0.2593,
+              "semantic_score": 0.5673
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2009.03224v1",
+          "title": "A Review on Near Duplicate Detection of Images using Computer Vision Techniques",
+          "summary": "Nowadays, digital content is widespread and simply redistributable, either lawfully or unlawfully. For example, after images are posted on the internet, other web users can modify them and then repost their versions, thereby generating near-duplicate images. The presence of near-duplicates affects the performance of the search engines critically. Computer vision is concerned with the automatic extraction, analysis and understanding of useful information from digital images. The main application of computer vision is image understanding. There are several tasks in image understanding such as feature extraction, object detection, object recognition, image cleaning, image transformation, etc. There is no proper survey in literature related to near duplicate detection of images. In this paper, we review the state-of-the-art computer vision-based approaches and feature extraction methods for the detection of near duplicate images. We also discuss the main challenges in this field and how other researchers addressed those challenges. This review provides research directions to the fellow researchers who are interested to work in this field.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "tfidf": {
+              "rank": 5,
+              "similarity_score": 0.2468,
+              "tfidf_score": 0.2468,
+              "semantic_score": null
+            },
+            "hybrid": {
+              "rank": 4,
+              "similarity_score": 0.8448,
+              "tfidf_score": 0.2468,
+              "semantic_score": 0.5053
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1310.7170v2",
+          "title": "Object Recognition System Design in Computer Vision: a Universal Approach",
+          "summary": "The first contribution of this paper is architecture of a multipurpose system, which delegates a range of object detection tasks to a classifier, applied in special grid positions of the tested image. The second contribution is Gray Level-Radius Co-occurrence Matrix, which describes local image texture and topology and, unlike common second order statistics methods, is robust to image resolution. The third contribution is a parametrically controlled automatic synthesis of unlimited number of numerical features for classification. The fourth contribution is a method of optimizing parameters C and gamma in LibSVM-based classifier, which is 20-100 times faster than the commonly applied method. The work is essentially experimental, with demonstration of various methods for definition of objects of interest in images and video sequences.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 1,
+              "similarity_score": 0.6647,
+              "tfidf_score": null,
+              "semantic_score": 0.6647
+            }
+          }
+        },
+        {
+          "paper_id": "abs-2507.23509v1",
+          "title": "I Am Big, You Are Little; I Am Right, You Are Wrong",
+          "summary": "Machine learning for image classification is an active and rapidly developing field. With the proliferation of classifiers of different sizes and different architectures, the problem of choosing the right model becomes more and more important. While we can assess a model's classification accuracy statistically, our understanding of the way these models work is unfortunately limited. In order to gain insight into the decision-making process of different vision models, we propose using minimal sufficient pixels sets to gauge a model's `concentration': the pixels that capture the essence of an image through the lens of the model. By comparing position, overlap, and size of sets of pixels, we identify that different architectures have statistically different concentration, in both size and position. In particular, ConvNext and EVA models differ markedly from the others. We also identify that images which are misclassified are associated with larger pixels sets than correct classifications.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 2,
+              "similarity_score": 0.6283,
+              "tfidf_score": null,
+              "semantic_score": 0.6283
+            }
+          }
+        },
+        {
+          "paper_id": "abs-0806.1796v1",
+          "title": "Evaluation for Uncertain Image Classification and Segmentation",
+          "summary": "Each year, numerous segmentation and classification algorithms are invented or reused to solve problems where machine vision is needed. Generally, the efficiency of these algorithms is compared against the results given by one or many human experts. However, in many situations, the location of the real boundaries of the objects as well as their classes are not known with certainty by the human experts. Furthermore, only one aspect of the segmentation and classification problem is generally evaluated. In this paper we present a new evaluation method for classification and segmentation of image, where we take into account both the classification and segmentation results as well as the level of certainty given by the experts. As a concrete example of our method, we evaluate an automatic seabed characterization algorithm based on sonar images.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 3,
+              "similarity_score": 0.6203,
+              "tfidf_score": null,
+              "semantic_score": 0.6203
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1405.5732v2",
+          "title": "Self-tuned Visual Subclass Learning with Shared Samples An Incremental Approach",
+          "summary": "Computer vision tasks are traditionally defined and evaluated using semantic categories. However, it is known to the field that semantic classes do not necessarily correspond to a unique visual class (e.g. inside and outside of a car). Furthermore, many of the feasible learning techniques at hand cannot model a visual class which appears consistent to the human eye. These problems have motivated the use of 1) Unsupervised or supervised clustering as a preprocessing step to identify the visual subclasses to be used in a mixture-of-experts learning regime. 2) Felzenszwalb et al. part model and other works model mixture assignment with latent variables which is optimized during learning 3) Highly non-linear classifiers which are inherently capable of modelling multi-modal input space but are inefficient at the test time. In this work, we promote an incremental view over the recognition of semantic classes with varied appearances. We propose an optimization technique which incrementally finds maximal visual subclasses in a regularized risk minimization framework. Our proposed approach unifies the clustering and classification steps in a single algorithm. The importance of this approach is its compliance with the classification via the fact that it does not need to know about the number of clusters, the representation and similarity measures used in pre-processing clustering methods a priori. Following this approach we show both qualitatively and quantitatively significant results. We show that the visual subclasses demonstrate a long tail distribution. Finally, we show that state of the art object detection methods (e.g. DPM) are unable to use the tails of this distribution comprising 50\\% of the training samples. In fact we show that DPM performance slightly increases on average by the removal of this half of the data.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 4,
+              "similarity_score": 0.6079,
+              "tfidf_score": null,
+              "semantic_score": 0.6079
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1603.08233v2",
+          "title": "Evolution of active categorical image classification via saccadic eye movement",
+          "summary": "Pattern recognition and classification is a central concern for modern information processing systems. In particular, one key challenge to image and video classification has been that the computational cost of image processing scales linearly with the number of pixels in the image or video. Here we present an intelligent machine (the \"active categorical classifier,\" or ACC) that is inspired by the saccadic movements of the eye, and is capable of classifying images by selectively scanning only a portion of the image. We harness evolutionary computation to optimize the ACC on the MNIST hand-written digit classification task, and provide a proof-of-concept that the ACC works on noisy multi-class data. We further analyze the ACC and demonstrate its ability to classify images after viewing only a fraction of the pixels, and provide insight on future research paths to further improve upon the ACC presented here.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "semantic": {
+              "rank": 5,
+              "similarity_score": 0.5893,
+              "tfidf_score": null,
+              "semantic_score": 0.5893
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1310.0319v3",
+          "title": "Second Croatian Computer Vision Workshop (CCVW 2013)",
+          "summary": "Proceedings of the Second Croatian Computer Vision Workshop (CCVW 2013, http://www.fer.unizg.hr/crv/ccvw2013) held September 19, 2013, in Zagreb, Croatia. Workshop was organized by the Center of Excellence for Computer Vision of the University of Zagreb.",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 3,
+              "similarity_score": 0.8581,
+              "tfidf_score": 0.2259,
+              "semantic_score": 0.5638
+            }
+          }
+        },
+        {
+          "paper_id": "abs-1910.13796v1",
+          "title": "Deep Learning vs. Traditional Computer Vision",
+          "summary": "Deep Learning has pushed the limits of what was possible in the domain of Digital Image Processing. However, that is not to say that the traditional computer vision techniques which had been undergoing progressive development in years prior to the rise of DL have become obsolete. This paper will analyse the benefits and drawbacks of each approach. The aim of this paper is to promote a discussion on whether knowledge of classical computer vision techniques should be maintained. The paper will also explore how the two sides of computer vision can be combined. Several recent hybrid methodologies are reviewed which have demonstrated the ability to improve computer vision performance and to tackle problems not suited to Deep Learning. For example, combining traditional computer vision techniques with Deep Learning has been popular in emerging domains such as Panoramic Vision and 3D vision for which Deep Learning models have not yet been fully optimised",
+          "query_text": "computer vision image classification",
+          "query_category_code": "cs.CV",
+          "paper_category": "Computer Vision and Pattern Recognition",
+          "paper_category_code": "cs.CV",
+          "relevance": null,
+          "annotation_status": "unjudged",
+          "rankings": {
+            "hybrid": {
+              "rank": 5,
+              "similarity_score": 0.84,
+              "tfidf_score": 0.2114,
+              "semantic_score": 0.5681
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

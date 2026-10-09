@@ -1,0 +1,233 @@
+{
+  "timestamp": "2026-10-09T03:25:46Z",
+  "model_name": "all-MiniLM-L6-v2",
+  "tfidf_memory_mb": 259.06,
+  "sbert_memory_mb": 420.97,
+  "tested_modes": [
+    "tfidf",
+    "semantic",
+    "hybrid"
+  ],
+  "aggregate_latency": {
+    "tfidf": {
+      "avg_latency_ms": 42.95,
+      "min_latency_ms": 38.51,
+      "max_latency_ms": 50.08
+    },
+    "semantic": {
+      "avg_latency_ms": 84.54,
+      "min_latency_ms": 17.32,
+      "max_latency_ms": 336.18
+    },
+    "hybrid": {
+      "avg_latency_ms": 56.99,
+      "min_latency_ms": 53.78,
+      "max_latency_ms": 59.56
+    }
+  },
+  "queries": [
+    {
+      "query": "transformer architectures for natural language processing",
+      "modes": {
+        "tfidf": {
+          "total_latency_ms": 50.08,
+          "top_score": 0.3662,
+          "tfidf_score": 0.3662,
+          "semantic_score": null,
+          "top_paper_id": "abs-1910.03771v5",
+          "top_paper_title": "HuggingFace's Transformers: State-of-the-art Natural Language Pro"
+        },
+        "semantic": {
+          "total_latency_ms": 129.52,
+          "top_score": 0.751,
+          "tfidf_score": null,
+          "semantic_score": 0.751,
+          "top_paper_id": "abs-2605.15413v1",
+          "top_paper_title": "Transformer Scalability Crisis: The First Comprehensive Empirical"
+        },
+        "hybrid": {
+          "total_latency_ms": 57.03,
+          "top_score": 0.9608,
+          "tfidf_score": 0.3662,
+          "semantic_score": 0.6904,
+          "top_paper_id": "abs-1910.03771v5",
+          "top_paper_title": "HuggingFace's Transformers: State-of-the-art Natural Language Pro"
+        }
+      }
+    },
+    {
+      "query": "large language models hallucination",
+      "modes": {
+        "tfidf": {
+          "total_latency_ms": 42.92,
+          "top_score": 0.3147,
+          "tfidf_score": 0.3147,
+          "semantic_score": null,
+          "top_paper_id": "abs-2407.08039v1",
+          "top_paper_title": "Knowledge Overshadowing Causes Amalgamated Hallucination in Large"
+        },
+        "semantic": {
+          "total_latency_ms": 336.18,
+          "top_score": 0.7747,
+          "tfidf_score": null,
+          "semantic_score": 0.7747,
+          "top_paper_id": "abs-2504.17004v2",
+          "top_paper_title": "(Im)possibility of Automated Hallucination Detection in Large Lan"
+        },
+        "hybrid": {
+          "total_latency_ms": 58.67,
+          "top_score": 0.9873,
+          "tfidf_score": 0.31,
+          "semantic_score": 0.7638,
+          "top_paper_id": "abs-2309.05217v1",
+          "top_paper_title": "Quantifying and Attributing the Hallucination of Large Language M"
+        }
+      }
+    },
+    {
+      "query": "diffusion models image generation",
+      "modes": {
+        "tfidf": {
+          "total_latency_ms": 44.02,
+          "top_score": 0.3209,
+          "tfidf_score": 0.3209,
+          "semantic_score": null,
+          "top_paper_id": "abs-2502.08580v1",
+          "top_paper_title": "Ultrasound Image Generation using Latent Diffusion Models"
+        },
+        "semantic": {
+          "total_latency_ms": 29.94,
+          "top_score": 0.7774,
+          "tfidf_score": null,
+          "semantic_score": 0.7774,
+          "top_paper_id": "abs-2302.01394v2",
+          "top_paper_title": "Understanding and contextualising diffusion models"
+        },
+        "hybrid": {
+          "total_latency_ms": 59.56,
+          "top_score": 0.95,
+          "tfidf_score": 0.3209,
+          "semantic_score": 0.6996,
+          "top_paper_id": "abs-2502.08580v1",
+          "top_paper_title": "Ultrasound Image Generation using Latent Diffusion Models"
+        }
+      }
+    },
+    {
+      "query": "graph neural networks",
+      "modes": {
+        "tfidf": {
+          "total_latency_ms": 38.51,
+          "top_score": 0.4192,
+          "tfidf_score": 0.4192,
+          "semantic_score": null,
+          "top_paper_id": "abs-2012.08752v4",
+          "top_paper_title": "Graph Neural Networks: Taxonomy, Advances and Trends"
+        },
+        "semantic": {
+          "total_latency_ms": 30.41,
+          "top_score": 0.7596,
+          "tfidf_score": null,
+          "semantic_score": 0.7596,
+          "top_paper_id": "abs-2403.13849v1",
+          "top_paper_title": "Graphs Unveiled: Graph Neural Networks and Graph Generation"
+        },
+        "hybrid": {
+          "total_latency_ms": 53.78,
+          "top_score": 0.9752,
+          "tfidf_score": 0.4192,
+          "semantic_score": 0.7218,
+          "top_paper_id": "abs-2012.08752v4",
+          "top_paper_title": "Graph Neural Networks: Taxonomy, Advances and Trends"
+        }
+      }
+    },
+    {
+      "query": "reinforcement learning from human feedback",
+      "modes": {
+        "tfidf": {
+          "total_latency_ms": 42.77,
+          "top_score": 0.3984,
+          "tfidf_score": 0.3984,
+          "semantic_score": null,
+          "top_paper_id": "abs-2406.10030v1",
+          "top_paper_title": "Off-Policy Evaluation from Logged Human Feedback"
+        },
+        "semantic": {
+          "total_latency_ms": 30.07,
+          "top_score": 0.6983,
+          "tfidf_score": null,
+          "semantic_score": 0.6983,
+          "top_paper_id": "abs-2504.12501v9",
+          "top_paper_title": "Reinforcement Learning from Human Feedback"
+        },
+        "hybrid": {
+          "total_latency_ms": 57.65,
+          "top_score": 0.9628,
+          "tfidf_score": 0.3614,
+          "semantic_score": 0.6983,
+          "top_paper_id": "abs-2504.12501v9",
+          "top_paper_title": "Reinforcement Learning from Human Feedback"
+        }
+      }
+    },
+    {
+      "query": "federated learning privacy",
+      "modes": {
+        "tfidf": {
+          "total_latency_ms": 40.96,
+          "top_score": 0.406,
+          "tfidf_score": 0.406,
+          "semantic_score": null,
+          "top_paper_id": "abs-2503.13550v1",
+          "top_paper_title": "Towards Privacy-Preserving Data-Driven Education: The Potential o"
+        },
+        "semantic": {
+          "total_latency_ms": 17.32,
+          "top_score": 0.874,
+          "tfidf_score": null,
+          "semantic_score": 0.874,
+          "top_paper_id": "abs-2012.06810v1",
+          "top_paper_title": "Achieving Security and Privacy in Federated Learning Systems: Sur"
+        },
+        "hybrid": {
+          "total_latency_ms": 58.45,
+          "top_score": 0.9743,
+          "tfidf_score": 0.406,
+          "semantic_score": 0.8293,
+          "top_paper_id": "abs-2503.13550v1",
+          "top_paper_title": "Towards Privacy-Preserving Data-Driven Education: The Potential o"
+        }
+      }
+    },
+    {
+      "query": "computer vision image classification",
+      "modes": {
+        "tfidf": {
+          "total_latency_ms": 41.42,
+          "top_score": 0.2703,
+          "tfidf_score": 0.2703,
+          "semantic_score": null,
+          "top_paper_id": "abs-2406.00239v1",
+          "top_paper_title": "A Review of Pulse-Coupled Neural Network Applications in Computer"
+        },
+        "semantic": {
+          "total_latency_ms": 18.34,
+          "top_score": 0.6647,
+          "tfidf_score": null,
+          "semantic_score": 0.6647,
+          "top_paper_id": "abs-1310.7170v2",
+          "top_paper_title": "Object Recognition System Design in Computer Vision: a Universal "
+        },
+        "hybrid": {
+          "total_latency_ms": 53.78,
+          "top_score": 0.9154,
+          "tfidf_score": 0.2593,
+          "semantic_score": 0.5673,
+          "top_paper_id": "abs-1703.05571v1",
+          "top_paper_title": "From visual words to a visual grammar: using language modelling f"
+        }
+      }
+    }
+  ]
+}

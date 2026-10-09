@@ -1,0 +1,46 @@
+[
+  {
+    "query": "transformer architectures for natural language processing",
+    "category_code": "cs.CL",
+    "notes": "Evaluation query for transformer models in NLP. Populate 'relevant_paper_ids' with expert-annotated arXiv IDs.",
+    "relevant_paper_ids": [
+      "abs-1910.03771v5"
+    ]
+  },
+  {
+    "query": "large language models hallucination",
+    "category_code": "cs.CL",
+    "notes": "Evaluation query for LLM hallucination mitigation.",
+    "relevant_paper_ids": []
+  },
+  {
+    "query": "diffusion models image generation",
+    "category_code": "cs.CV",
+    "notes": "Evaluation query for diffusion probabilistic models.",
+    "relevant_paper_ids": []
+  },
+  {
+    "query": "graph neural networks",
+    "category_code": "cs.LG",
+    "notes": "Evaluation query for GNN architectures and message passing.",
+    "relevant_paper_ids": []
+  },
+  {
+    "query": "reinforcement learning from human feedback",
+    "category_code": "cs.LG",
+    "notes": "Evaluation query for RLHF and policy alignment.",
+    "relevant_paper_ids": []
+  },
+  {
+    "query": "federated learning privacy",
+    "category_code": "cs.LG",
+    "notes": "Evaluation query for privacy-preserving distributed learning.",
+    "relevant_paper_ids": []
+  },
+  {
+    "query": "computer vision image classification",
+    "category_code": "cs.CV",
+    "notes": "Evaluation query for visual classification architectures.",
+    "relevant_paper_ids": []
+  }
+]

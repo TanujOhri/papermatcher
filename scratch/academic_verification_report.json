@@ -1,0 +1,742 @@
+{
+  "total_metadata_records": 287383,
+  "production_sbert_index_complete": false,
+  "production_sbert_count": 0,
+  "test_sbert_count": 5000,
+  "avg_latencies_ms": {
+    "tfidf": 77.35,
+    "sbert_query_encoding": 11.6,
+    "sbert_retrieval_dot_product": 0.59,
+    "hybrid_total": 13.52
+  },
+  "queries": [
+    {
+      "query": "transformer architectures for natural language processing",
+      "top5_tfidf_full": [
+        {
+          "id": "abs-1910.03771v5",
+          "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+          "score": 0.3662116825580597
+        },
+        {
+          "id": "abs-1608.04434v1",
+          "title": "Natural Language Processing using Hadoop and KOSHIK",
+          "score": 0.3601728677749634
+        },
+        {
+          "id": "cs-0304027v1",
+          "title": "\"I'm sorry Dave, I'm afraid I can't do that\": Linguistics, Statistics, and Natural Language Processing circa 2001",
+          "score": 0.337352991104126
+        },
+        {
+          "id": "abs-1906.11608v2",
+          "title": "Simple Natural Language Processing Tools for Danish",
+          "score": 0.3045462965965271
+        },
+        {
+          "id": "abs-2004.08483v5",
+          "title": "ETC: Encoding Long and Structured Inputs in Transformers",
+          "score": 0.2839278280735016
+        }
+      ],
+      "top5_sbert": [
+        {
+          "id": "abs-2002.06261v2",
+          "title": "Stress Test Evaluation of Transformer-based Models in Natural Language Understanding Tasks",
+          "score": 0.7011350393295288
+        },
+        {
+          "id": "cs-0501096v1",
+          "title": "Transforming and Enriching Documents for the Semantic Web",
+          "score": 0.5058543682098389
+        },
+        {
+          "id": "abs-2212.08681v1",
+          "title": "Plansformer: Generating Symbolic Plans using Transformers",
+          "score": 0.5000944137573242
+        },
+        {
+          "id": "abs-1107.0026v1",
+          "title": "IDL-Expressions: A Formalism for Representing and Parsing Finite Languages in Natural Language Processing",
+          "score": 0.48643144965171814
+        },
+        {
+          "id": "cs-0407008v1",
+          "title": "Autogenic Training With Natural Language Processing Modules: A Recent Tool For Certain Neuro Cognitive Studies",
+          "score": 0.47713422775268555
+        }
+      ],
+      "top5_hybrid": [
+        {
+          "id": "abs-2002.06261v2",
+          "title": "Stress Test Evaluation of Transformer-based Models in Natural Language Understanding Tasks",
+          "raw_tfidf": 0.1651236116886139,
+          "raw_sbert": 0.7011350393295288,
+          "norm_tfidf": 0.7136322259902954,
+          "norm_sbert": 1.0,
+          "hybrid_score": 0.885452926158905
+        },
+        {
+          "id": "abs-1107.0026v1",
+          "title": "IDL-Expressions: A Formalism for Representing and Parsing Finite Languages in Natural Language Processing",
+          "raw_tfidf": 0.2313847541809082,
+          "raw_sbert": 0.48643144965171814,
+          "norm_tfidf": 1.0,
+          "norm_sbert": 0.736861526966095,
+          "hybrid_score": 0.8421169519424438
+        },
+        {
+          "id": "cs-0407008v1",
+          "title": "Autogenic Training With Natural Language Processing Modules: A Recent Tool For Certain Neuro Cognitive Studies",
+          "raw_tfidf": 0.20553246140480042,
+          "raw_sbert": 0.47713422775268555,
+          "norm_tfidf": 0.8882713913917542,
+          "norm_sbert": 0.7254669666290283,
+          "hybrid_score": 0.7905887365341187
+        },
+        {
+          "id": "cs-0501096v1",
+          "title": "Transforming and Enriching Documents for the Semantic Web",
+          "raw_tfidf": 0.13163483142852783,
+          "raw_sbert": 0.5058543682098389,
+          "norm_tfidf": 0.5689001679420471,
+          "norm_sbert": 0.760666012763977,
+          "hybrid_score": 0.6839597225189209
+        },
+        {
+          "id": "abs-2212.08681v1",
+          "title": "Plansformer: Generating Symbolic Plans using Transformers",
+          "raw_tfidf": 0.11254417896270752,
+          "raw_sbert": 0.5000944137573242,
+          "norm_tfidf": 0.48639410734176636,
+          "norm_sbert": 0.7536066770553589,
+          "hybrid_score": 0.6467216610908508
+        }
+      ]
+    },
+    {
+      "query": "large language models hallucination",
+      "top5_tfidf_full": [
+        {
+          "id": "abs-2407.08039v1",
+          "title": "Knowledge Overshadowing Causes Amalgamated Hallucination in Large Language Models",
+          "score": 0.31468525528907776
+        },
+        {
+          "id": "abs-2404.07461v2",
+          "title": "An Audit on the Perspectives and Challenges of Hallucinations in NLP",
+          "score": 0.31325995922088623
+        },
+        {
+          "id": "abs-2506.07184v1",
+          "title": "Mitigating Behavioral Hallucination in Multimodal Large Language Models for Sequential Images",
+          "score": 0.3113241195678711
+        },
+        {
+          "id": "abs-2309.05217v1",
+          "title": "Quantifying and Attributing the Hallucination of Large Language Models via Association Analysis",
+          "score": 0.3099672198295593
+        },
+        {
+          "id": "abs-2410.15359v1",
+          "title": "A Survey of Hallucination in Large Visual Language Models",
+          "score": 0.3030278980731964
+        }
+      ],
+      "top5_sbert": [
+        {
+          "id": "abs-2212.10276v1",
+          "title": "Identifying and Manipulating the Personality Traits of Language Models",
+          "score": 0.42510420083999634
+        },
+        {
+          "id": "abs-1811.04651v1",
+          "title": "Combining Learned Lyrical Structures and Vocabulary for Improved Lyric Generation",
+          "score": 0.408799946308136
+        },
+        {
+          "id": "cs-0407008v1",
+          "title": "Autogenic Training With Natural Language Processing Modules: A Recent Tool For Certain Neuro Cognitive Studies",
+          "score": 0.4067564010620117
+        },
+        {
+          "id": "abs-2002.06261v2",
+          "title": "Stress Test Evaluation of Transformer-based Models in Natural Language Understanding Tasks",
+          "score": 0.4051123261451721
+        },
+        {
+          "id": "cs-9402101v1",
+          "title": "Learning the Past Tense of English Verbs: The Symbolic Pattern Associator vs. Connectionist Models",
+          "score": 0.3945605158805847
+        }
+      ],
+      "top5_hybrid": [
+        {
+          "id": "abs-2212.08966v5",
+          "title": "Graph Learning and Its Advancements on Large Language Models: A Holistic Survey",
+          "raw_tfidf": 0.1142810732126236,
+          "raw_sbert": 0.33440494537353516,
+          "norm_tfidf": 1.0,
+          "norm_sbert": 0.8484559655189514,
+          "hybrid_score": 0.9090735912322998
+        },
+        {
+          "id": "abs-2212.10276v1",
+          "title": "Identifying and Manipulating the Personality Traits of Language Models",
+          "raw_tfidf": 0.07021377980709076,
+          "raw_sbert": 0.42510420083999634,
+          "norm_tfidf": 0.6143954992294312,
+          "norm_sbert": 1.0,
+          "hybrid_score": 0.8457581996917725
+        },
+        {
+          "id": "abs-1811.04651v1",
+          "title": "Combining Learned Lyrical Structures and Vocabulary for Improved Lyric Generation",
+          "raw_tfidf": 0.07158433645963669,
+          "raw_sbert": 0.408799946308136,
+          "norm_tfidf": 0.6263883709907532,
+          "norm_sbert": 0.9727581739425659,
+          "hybrid_score": 0.8342102766036987
+        },
+        {
+          "id": "abs-2212.08681v1",
+          "title": "Plansformer: Generating Symbolic Plans using Transformers",
+          "raw_tfidf": 0.06535518914461136,
+          "raw_sbert": 0.3878287672996521,
+          "norm_tfidf": 0.571881115436554,
+          "norm_sbert": 0.9377186298370361,
+          "hybrid_score": 0.7913836240768433
+        },
+        {
+          "id": "abs-2212.11214v1",
+          "title": "Crowd Score: A Method for the Evaluation of Jokes using Large Language Model AI Voters as Judges",
+          "raw_tfidf": 0.07599255442619324,
+          "raw_sbert": 0.3183930218219757,
+          "norm_tfidf": 0.6649618744850159,
+          "norm_sbert": 0.8217024803161621,
+          "hybrid_score": 0.7590062618255615
+        }
+      ]
+    },
+    {
+      "query": "diffusion models image generation",
+      "top5_tfidf_full": [
+        {
+          "id": "abs-2502.08580v1",
+          "title": "Ultrasound Image Generation using Latent Diffusion Models",
+          "score": 0.32094070315361023
+        },
+        {
+          "id": "abs-2602.07022v1",
+          "title": "Condition Errors Refinement in Autoregressive Image Generation with Diffusion Loss",
+          "score": 0.29392480850219727
+        },
+        {
+          "id": "abs-2510.23574v1",
+          "title": "More Than Generation: Unifying Generation and Depth Estimation via Text-to-Image Diffusion Models",
+          "score": 0.28428328037261963
+        },
+        {
+          "id": "abs-2303.07576v1",
+          "title": "Diffusion Models in NLP: A Survey",
+          "score": 0.2781108617782593
+        },
+        {
+          "id": "abs-2502.07829v1",
+          "title": "Preference Alignment on Diffusion Model: A Comprehensive Survey for Image Generation and Editing",
+          "score": 0.2769075632095337
+        }
+      ],
+      "top5_sbert": [
+        {
+          "id": "abs-2010.04949v2",
+          "title": "Image Generation With Neural Cellular Automatas",
+          "score": 0.5458786487579346
+        },
+        {
+          "id": "abs-1905.08222v1",
+          "title": "Accelerated Discovery of Sustainable Building Materials",
+          "score": 0.49692314863204956
+        },
+        {
+          "id": "abs-2212.09399v1",
+          "title": "AI Art in Architecture",
+          "score": 0.40878060460090637
+        },
+        {
+          "id": "abs-1108.3757v1",
+          "title": "Self-Organizing Mixture Networks for Representation of Grayscale Digital Images",
+          "score": 0.39279744029045105
+        },
+        {
+          "id": "abs-1706.07068v1",
+          "title": "CAN: Creative Adversarial Networks, Generating \"Art\" by Learning About Styles and Deviating from Style Norms",
+          "score": 0.3554467558860779
+        }
+      ],
+      "top5_hybrid": [
+        {
+          "id": "abs-2010.04949v2",
+          "title": "Image Generation With Neural Cellular Automatas",
+          "raw_tfidf": 0.10491551458835602,
+          "raw_sbert": 0.5458786487579346,
+          "norm_tfidf": 1.0,
+          "norm_sbert": 1.0,
+          "hybrid_score": 1.0
+        },
+        {
+          "id": "abs-2212.09399v1",
+          "title": "AI Art in Architecture",
+          "raw_tfidf": 0.04414646327495575,
+          "raw_sbert": 0.40878060460090637,
+          "norm_tfidf": 0.42078107595443726,
+          "norm_sbert": 0.792940616607666,
+          "hybrid_score": 0.6440768241882324
+        },
+        {
+          "id": "abs-1905.08222v1",
+          "title": "Accelerated Discovery of Sustainable Building Materials",
+          "raw_tfidf": 0.016310643404722214,
+          "raw_sbert": 0.49692314863204956,
+          "norm_tfidf": 0.1554645448923111,
+          "norm_sbert": 0.9260624051094055,
+          "hybrid_score": 0.6178233027458191
+        },
+        {
+          "id": "abs-2104.06106v1",
+          "title": "Level Generation for Angry Birds with Sequential VAE and Latent Variable Evolution",
+          "raw_tfidf": 0.039677269756793976,
+          "raw_sbert": 0.3380095958709717,
+          "norm_tfidf": 0.3781830668449402,
+          "norm_sbert": 0.6860549449920654,
+          "hybrid_score": 0.5629062056541443
+        },
+        {
+          "id": "abs-2212.00443v4",
+          "title": "Unbiased Heterogeneous Scene Graph Generation with Relation-aware Message Passing Neural Network",
+          "raw_tfidf": 0.03866482526063919,
+          "raw_sbert": 0.31151238083839417,
+          "norm_tfidf": 0.3685329556465149,
+          "norm_sbert": 0.6460361480712891,
+          "hybrid_score": 0.5350348949432373
+        }
+      ]
+    },
+    {
+      "query": "graph neural networks",
+      "top5_tfidf_full": [
+        {
+          "id": "abs-2012.08752v4",
+          "title": "Graph Neural Networks: Taxonomy, Advances and Trends",
+          "score": 0.41920071840286255
+        },
+        {
+          "id": "abs-2606.17185v1",
+          "title": "Finsler Geometry, Graph Neural Networks, and You",
+          "score": 0.41291359066963196
+        },
+        {
+          "id": "abs-2505.07816v2",
+          "title": "Graph neural networks and MSO",
+          "score": 0.39724797010421753
+        },
+        {
+          "id": "abs-2110.09039v1",
+          "title": "Capsule Graph Neural Networks with EM Routing",
+          "score": 0.3796004056930542
+        },
+        {
+          "id": "abs-2403.13849v1",
+          "title": "Graphs Unveiled: Graph Neural Networks and Graph Generation",
+          "score": 0.3723207712173462
+        }
+      ],
+      "top5_sbert": [
+        {
+          "id": "abs-2010.00238v3",
+          "title": "Multi-grained Semantics-aware Graph Neural Networks",
+          "score": 0.6268764734268188
+        },
+        {
+          "id": "abs-1702.03592v1",
+          "title": "Graph Neural Networks and Boolean Satisfiability",
+          "score": 0.6013002395629883
+        },
+        {
+          "id": "abs-1901.06965v2",
+          "title": "Learning Graph Pooling and Hybrid Convolutional Operations for Text Representations",
+          "score": 0.5994097590446472
+        },
+        {
+          "id": "abs-2103.07877v3",
+          "title": "R-GSN: The Relation-based Graph Similar Network for Heterogeneous Graph",
+          "score": 0.5774602890014648
+        },
+        {
+          "id": "abs-1808.08213v1",
+          "title": "Future Automation Engineering using Structural Graph Convolutional Neural Networks",
+          "score": 0.5618175268173218
+        }
+      ],
+      "top5_hybrid": [
+        {
+          "id": "abs-1702.03592v1",
+          "title": "Graph Neural Networks and Boolean Satisfiability",
+          "raw_tfidf": 0.3283465504646301,
+          "raw_sbert": 0.6013002395629883,
+          "norm_tfidf": 1.0,
+          "norm_sbert": 0.965822696685791,
+          "hybrid_score": 0.9794936180114746
+        },
+        {
+          "id": "abs-2010.00238v3",
+          "title": "Multi-grained Semantics-aware Graph Neural Networks",
+          "raw_tfidf": 0.1979825496673584,
+          "raw_sbert": 0.6268764734268188,
+          "norm_tfidf": 0.6029682755470276,
+          "norm_sbert": 1.0,
+          "hybrid_score": 0.8411873579025269
+        },
+        {
+          "id": "abs-2103.07877v3",
+          "title": "R-GSN: The Relation-based Graph Similar Network for Heterogeneous Graph",
+          "raw_tfidf": 0.2047363817691803,
+          "raw_sbert": 0.5774602890014648,
+          "norm_tfidf": 0.6235374808311462,
+          "norm_sbert": 0.9339655637741089,
+          "hybrid_score": 0.8097943663597107
+        },
+        {
+          "id": "abs-2212.12470v2",
+          "title": "Proximal Policy Optimization with Graph Neural Networks for Optimal Power Flow",
+          "raw_tfidf": 0.21715009212493896,
+          "raw_sbert": 0.5135853290557861,
+          "norm_tfidf": 0.6613442301750183,
+          "norm_sbert": 0.848609983921051,
+          "hybrid_score": 0.7737036943435669
+        },
+        {
+          "id": "abs-1808.08213v1",
+          "title": "Future Automation Engineering using Structural Graph Convolutional Neural Networks",
+          "raw_tfidf": 0.14619070291519165,
+          "raw_sbert": 0.5618175268173218,
+          "norm_tfidf": 0.44523295760154724,
+          "norm_sbert": 0.9130622744560242,
+          "hybrid_score": 0.7259305715560913
+        }
+      ]
+    },
+    {
+      "query": "reinforcement learning from human feedback",
+      "top5_tfidf_full": [
+        {
+          "id": "abs-2406.10030v1",
+          "title": "Off-Policy Evaluation from Logged Human Feedback",
+          "score": 0.3983745276927948
+        },
+        {
+          "id": "abs-2504.13972v1",
+          "title": "Governance Challenges in Reinforcement Learning from Human Feedback: Evaluator Rationality and Reinforcement Stability",
+          "score": 0.3800116181373596
+        },
+        {
+          "id": "abs-2509.04372v1",
+          "title": "Connections between reinforcement learning with feedback,test-time scaling, and diffusion guidance: An anthology",
+          "score": 0.37993019819259644
+        },
+        {
+          "id": "abs-2508.01930v1",
+          "title": "Word Overuse and Alignment in Large Language Models: The Influence of Learning from Human Feedback",
+          "score": 0.37717872858047485
+        },
+        {
+          "id": "abs-1709.03969v2",
+          "title": "Explore, Exploit or Listen: Combining Human Feedback and Policy Model to Speed up Deep Reinforcement Learning in 3D Worlds",
+          "score": 0.376923143863678
+        }
+      ],
+      "top5_sbert": [
+        {
+          "id": "cs-9605103v1",
+          "title": "Reinforcement Learning: A Survey",
+          "score": 0.595410943031311
+        },
+        {
+          "id": "abs-2001.06781v1",
+          "title": "FRESH: Interactive Reward Shaping in High-Dimensional State Spaces using Human Feedback",
+          "score": 0.5926211476325989
+        },
+        {
+          "id": "abs-1709.03969v2",
+          "title": "Explore, Exploit or Listen: Combining Human Feedback and Policy Model to Speed up Deep Reinforcement Learning in 3D Worlds",
+          "score": 0.5421457886695862
+        },
+        {
+          "id": "abs-1805.04493v1",
+          "title": "Interactive Reinforcement Learning with Dynamic Reuse of Prior Knowledge from Human/Agent's Demonstration",
+          "score": 0.540852963924408
+        },
+        {
+          "id": "abs-1710.03592v2",
+          "title": "Meta Inverse Reinforcement Learning via Maximum Reward Sharing for Human Motion Analysis",
+          "score": 0.5404982566833496
+        }
+      ],
+      "top5_hybrid": [
+        {
+          "id": "abs-1709.03969v2",
+          "title": "Explore, Exploit or Listen: Combining Human Feedback and Policy Model to Speed up Deep Reinforcement Learning in 3D Worlds",
+          "raw_tfidf": 0.376923143863678,
+          "raw_sbert": 0.5421457886695862,
+          "norm_tfidf": 1.0,
+          "norm_sbert": 0.9232463240623474,
+          "hybrid_score": 0.9539477825164795
+        },
+        {
+          "id": "abs-2001.06781v1",
+          "title": "FRESH: Interactive Reward Shaping in High-Dimensional State Spaces using Human Feedback",
+          "raw_tfidf": 0.1843491494655609,
+          "raw_sbert": 0.5926211476325989,
+          "norm_tfidf": 0.4890894889831543,
+          "norm_sbert": 0.9959799647331238,
+          "hybrid_score": 0.7932237982749939
+        },
+        {
+          "id": "abs-2006.14804v5",
+          "title": "Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation",
+          "raw_tfidf": 0.20220451056957245,
+          "raw_sbert": 0.5125496983528137,
+          "norm_tfidf": 0.5364608764648438,
+          "norm_sbert": 0.8805991411209106,
+          "hybrid_score": 0.7429438829421997
+        },
+        {
+          "id": "cs-9605103v1",
+          "title": "Reinforcement Learning: A Survey",
+          "raw_tfidf": 0.1201302707195282,
+          "raw_sbert": 0.595410943031311,
+          "norm_tfidf": 0.31871291995048523,
+          "norm_sbert": 1.0,
+          "hybrid_score": 0.727485179901123
+        },
+        {
+          "id": "abs-1901.00949v1",
+          "title": "Machine Teaching in Hierarchical Genetic Reinforcement Learning: Curriculum Design of Reward Functions for Swarm Shepherding",
+          "raw_tfidf": 0.188256174325943,
+          "raw_sbert": 0.5084320902824402,
+          "norm_tfidf": 0.499455064535141,
+          "norm_sbert": 0.8746657371520996,
+          "hybrid_score": 0.7245814800262451
+        }
+      ]
+    },
+    {
+      "query": "federated learning privacy",
+      "top5_tfidf_full": [
+        {
+          "id": "abs-2503.13550v1",
+          "title": "Towards Privacy-Preserving Data-Driven Education: The Potential of Federated Learning",
+          "score": 0.40595269203186035
+        },
+        {
+          "id": "abs-1911.10071v1",
+          "title": "Federated Learning with Bayesian Differential Privacy",
+          "score": 0.39804819226264954
+        },
+        {
+          "id": "abs-2010.01017v2",
+          "title": "Practical One-Shot Federated Learning for Cross-Silo Setting",
+          "score": 0.3889363408088684
+        },
+        {
+          "id": "abs-2211.06324v1",
+          "title": "Secure Aggregation Is Not All You Need: Mitigating Privacy Attacks with Noise Tolerance in Federated Learning",
+          "score": 0.3800371289253235
+        },
+        {
+          "id": "abs-2001.08090v2",
+          "title": "Stratified cross-validation for unbiased and privacy-preserving federated learning",
+          "score": 0.3672671318054199
+        }
+      ],
+      "top5_sbert": [
+        {
+          "id": "abs-1404.5454v1",
+          "title": "Stochastic Privacy",
+          "score": 0.4468441307544708
+        },
+        {
+          "id": "abs-1604.06787v1",
+          "title": "Utilitarian Distributed Constraint Optimization Problems",
+          "score": 0.44451475143432617
+        },
+        {
+          "id": "abs-1703.06939v1",
+          "title": "Distributed Constraint Problems for Utilitarian Agents with Privacy Concerns, Recast as POMDPs",
+          "score": 0.42953017354011536
+        },
+        {
+          "id": "abs-1604.06790v1",
+          "title": "DisCSPs with Privacy Recast as Planning Problems for Utility-based Agents",
+          "score": 0.4258292317390442
+        },
+        {
+          "id": "abs-1706.05733v1",
+          "title": "Data set operations to hide decision tree rules",
+          "score": 0.396139919757843
+        }
+      ],
+      "top5_hybrid": [
+        {
+          "id": "abs-1604.06787v1",
+          "title": "Utilitarian Distributed Constraint Optimization Problems",
+          "raw_tfidf": 0.10964395105838776,
+          "raw_sbert": 0.44451475143432617,
+          "norm_tfidf": 1.0,
+          "norm_sbert": 0.9958181381225586,
+          "hybrid_score": 0.9974908828735352
+        },
+        {
+          "id": "abs-1703.06939v1",
+          "title": "Distributed Constraint Problems for Utilitarian Agents with Privacy Concerns, Recast as POMDPs",
+          "raw_tfidf": 0.10661425441503525,
+          "raw_sbert": 0.42953017354011536,
+          "norm_tfidf": 0.9723678827285767,
+          "norm_sbert": 0.9689173102378845,
+          "hybrid_score": 0.9702975749969482
+        },
+        {
+          "id": "abs-1404.5454v1",
+          "title": "Stochastic Privacy",
+          "raw_tfidf": 0.08309615403413773,
+          "raw_sbert": 0.4468441307544708,
+          "norm_tfidf": 0.7578726410865784,
+          "norm_sbert": 1.0,
+          "hybrid_score": 0.9031491279602051
+        },
+        {
+          "id": "abs-1604.06790v1",
+          "title": "DisCSPs with Privacy Recast as Planning Problems for Utility-based Agents",
+          "raw_tfidf": 0.08609951287508011,
+          "raw_sbert": 0.4258292317390442,
+          "norm_tfidf": 0.7852646112442017,
+          "norm_sbert": 0.9622731804847717,
+          "hybrid_score": 0.8914697170257568
+        },
+        {
+          "id": "abs-1712.08266v1",
+          "title": "Federated Control with Hierarchical Multi-Agent Deep Reinforcement Learning",
+          "raw_tfidf": 0.06866411864757538,
+          "raw_sbert": 0.37964168190956116,
+          "norm_tfidf": 0.6262462735176086,
+          "norm_sbert": 0.8793555498123169,
+          "hybrid_score": 0.7781118154525757
+        }
+      ]
+    },
+    {
+      "query": "computer vision image classification",
+      "top5_tfidf_full": [
+        {
+          "id": "abs-2406.00239v1",
+          "title": "A Review of Pulse-Coupled Neural Network Applications in Computer Vision and Image Processing",
+          "score": 0.2703050374984741
+        },
+        {
+          "id": "abs-1703.03091v1",
+          "title": "Deep Learning applied to NLP",
+          "score": 0.2699529826641083
+        },
+        {
+          "id": "abs-1109.1057v1",
+          "title": "Toward Designing Intelligent PDEs for Computer Vision: An Optimal Control Approach",
+          "score": 0.26572245359420776
+        },
+        {
+          "id": "abs-2312.01232v2",
+          "title": "A Comprehensive Study of Vision Transformers in Image Classification Tasks",
+          "score": 0.26207032799720764
+        },
+        {
+          "id": "abs-1703.05571v1",
+          "title": "From visual words to a visual grammar: using language modelling for image classification",
+          "score": 0.2592719793319702
+        }
+      ],
+      "top5_sbert": [
+        {
+          "id": "abs-0805.3935v1",
+          "title": "Fusion for Evaluation of Image Classification in Uncertain Environments",
+          "score": 0.5246683359146118
+        },
+        {
+          "id": "abs-0807.0627v1",
+          "title": "Belief decision support and reject for textured images characterization",
+          "score": 0.5008189678192139
+        },
+        {
+          "id": "cs-0405013v1",
+          "title": "DCT Based Texture Classification Using Soft Computing Approach",
+          "score": 0.4743401110172272
+        },
+        {
+          "id": "abs-2104.13155v2",
+          "title": "Watershed of Artificial Intelligence: Human Intelligence, Machine Intelligence, and Biological Intelligence",
+          "score": 0.4659835696220398
+        },
+        {
+          "id": "cs-9510103v1",
+          "title": "Learning Membership Functions in a Function-Based Object Recognition System",
+          "score": 0.45814812183380127
+        }
+      ],
+      "top5_hybrid": [
+        {
+          "id": "abs-0805.3935v1",
+          "title": "Fusion for Evaluation of Image Classification in Uncertain Environments",
+          "raw_tfidf": 0.0897156223654747,
+          "raw_sbert": 0.5246683359146118,
+          "norm_tfidf": 0.737467348575592,
+          "norm_sbert": 1.0,
+          "hybrid_score": 0.8949869871139526
+        },
+        {
+          "id": "abs-1311.6054v1",
+          "title": "Q-learning optimization in a multi-agents system for image segmentation",
+          "raw_tfidf": 0.12165368348360062,
+          "raw_sbert": 0.40479615330696106,
+          "norm_tfidf": 1.0,
+          "norm_sbert": 0.8121810555458069,
+          "hybrid_score": 0.887308657169342
+        },
+        {
+          "id": "abs-2104.13155v2",
+          "title": "Watershed of Artificial Intelligence: Human Intelligence, Machine Intelligence, and Biological Intelligence",
+          "raw_tfidf": 0.06714387238025665,
+          "raw_sbert": 0.4659835696220398,
+          "norm_tfidf": 0.55192631483078,
+          "norm_sbert": 0.908051073551178,
+          "hybrid_score": 0.7656012177467346
+        },
+        {
+          "id": "abs-1507.05122v2",
+          "title": "Human Gender Classification: A Review",
+          "raw_tfidf": 0.07743643969297409,
+          "raw_sbert": 0.4286585748195648,
+          "norm_tfidf": 0.6365318298339844,
+          "norm_sbert": 0.8495692610740662,
+          "hybrid_score": 0.7643543481826782
+        },
+        {
+          "id": "abs-2103.08249v2",
+          "title": "Evolving parametrized Loss for Image Classification Learning on Small Datasets",
+          "raw_tfidf": 0.08757747709751129,
+          "raw_sbert": 0.38461828231811523,
+          "norm_tfidf": 0.7198917269706726,
+          "norm_sbert": 0.7805657386779785,
+          "hybrid_score": 0.7562961578369141
+        }
+      ]
+    }
+  ]
+}
